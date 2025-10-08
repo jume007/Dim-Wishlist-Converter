@@ -13,6 +13,8 @@
             background: #ffffff;
             padding: 10px;
             border-radius: 5px;
+            max-height: 500px;
+            overflow-y: auto;
         }
     </style>
 </head>
@@ -32,7 +34,17 @@
             console.log('Fetch Data:', data); // Debug log
             const manifestData = JSON.parse(data.contents);
             if (manifestData.ErrorCode === 1) {
-                document.getElementById('item-info').innerText = JSON.stringify(manifestData.Response, null, 2);
+                // Display a sample item from the manifest
+                const itemHash = 347366834; // Example: Ace of Spades (exotic hand cannon)
+                const item = manifestData.Response.destinyInventoryItemDefinition[itemHash];
+                if (item) {
+                    document.getElementById('item-info').innerText = 
+                        `Item Name: ${item.displayProperties.name}\n` +
+                        `Description: ${item.displayProperties.description}\n` +
+                        `Type: ${item.itemTypeDisplayName}`;
+                } else {
+                    document.getElementById('item-info').innerText = 'Item not found';
+                }
             } else {
                 document.getElementById('item-info').innerText = `Error: ${manifestData.Message}`;
             }
