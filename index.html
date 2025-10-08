@@ -14,63 +14,33 @@
             padding: 10px;
             border-radius: 5px;
         }
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-        }
     </style>
 </head>
 <body>
-    <h1>Destiny 2 Profile Demo</h1>
-    <button id="login">Login with Bungie</button>
-    <div id="item-info">Please log in</div>
+    <h1>Destiny 2 Manifest Demo</h1>
+    <div id="item-info">Loading...</div>
     <script>
-        const CLIENT_ID = 'YOUR_CLIENT_ID'; // Replace with verified Client ID from Bungie portal
-        const API_KEY = 'f40e24504a3340a081827e67cdbfeded'; // Confirmed API Key
-        const REDIRECT_URI = 'https://jume007.github.io'; // Verified redirect URI
-        const AUTH_URL = 'https://www.bungie.net/en/OAuth/Authorize';
-
-        // Extract access token from URL hash
-        function getAccessToken() {
-            const hash = window.location.hash;
-            const params = new URLSearchParams(hash.replace('#', ''));
-            return params.get('access_token');
-        }
-
-        // Handle login button click
-        document.getElementById('login').addEventListener('click', () => {
-            console.log('Login button clicked'); // Debug log
-            const authUrl = `${AUTH_URL}?client_id=${CLIENT_ID}&response_type=token&redirect_uri=${encodeURIComponent(REDIRECT_URI)}`;
-            console.log('Auth URL:', authUrl); // Debug log for URL
-            window.location.href = authUrl;
+        const API_KEY = 'f40e24504a3340a081827e67cdbfeded'; // Your API Key
+        fetch('https://api.allorigins.win/get?url=' + encodeURIComponent('https://www.bungie.net/Platform/Destiny2Manifest/'), {
+            headers: { 'X-API-Key': API_KEY }
+        })
+        .then(response => {
+            console.log('Fetch Response Status:', response.status); // Debug log
+            return response.json();
+        })
+        .then(data => {
+            console.log('Fetch Data:', data); // Debug log
+            const manifestData = JSON.parse(data.contents);
+            if (manifestData.ErrorCode === 1) {
+                document.getElementById('item-info').innerText = JSON.stringify(manifestData.Response, null, 2);
+            } else {
+                document.getElementById('item-info').innerText = `Error: ${manifestData.Message}`;
+            }
+        })
+        .catch(error => {
+            console.error('Fetch Error:', error); // Debug log
+            document.getElementById('item-info').innerText = 'Error fetching manifest: ' + error.message;
         });
-
-        // Fetch user profile if token exists
-        const token = getAccessToken();
-        if (token) {
-            document.getElementById('login').style.display = 'none'; // Hide login button
-            fetch('https://api.allorigins.win/get?url=' + encodeURIComponent('https://www.bungie.net/Platform/User/GetCurrentBungieNetUser/'), {
-                headers: {
-                    'X-API-Key': API_KEY,
-                    'Authorization': `Bearer ${token}`
-                }
-            })
-            .then(response => response.json())
-            .then(data => {
-                const userData = JSON.parse(data.contents);
-                if (userData.ErrorCode === 1) {
-                    const displayName = userData.Response.displayName;
-                    document.getElementById('item-info').innerText = `Welcome, ${displayName}!`;
-                } else {
-                    document.getElementById('item-info').innerText = `Error: ${userData.Message}`;
-                }
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                document.getElementById('item-info').innerText = 'Error fetching profile';
-            });
-        }
     </script>
 </body>
 </html>
