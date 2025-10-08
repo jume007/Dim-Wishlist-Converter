@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Destiny 2 API Demo</title>
+</head>
+<body>
+    <h1>Destiny 2 Item Example</h1>
+    <div id="item-info">Loading...</div>
+    <script>
+        // Fetch from Bungie API (no auth needed for public manifests)
+        fetch('https://www.bungie.net/Platform/Destiny2Manifest/', {
+            headers: { 'X-API-Key': 'YOUR_API_KEY_HERE' } // Get free key at bungie.net/en/ForDevelopers
+        })
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById('item-info').innerText = JSON.stringify(data, null, 2);
+        })
+        .catch(error => console.error('Error:', error));
+    </script>
+</body>
+</html>
