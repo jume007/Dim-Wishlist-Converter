@@ -23,19 +23,24 @@
     <div id="item-info">Loading...</div>
     <script>
         const API_KEY = 'f40e24504a3340a081827e67cdbfeded'; // Your API Key
-        fetch('https://api.allorigins.win/get?url=' + encodeURIComponent('https://www.bungie.net/Platform/Destiny2Manifest/'), {
+        const manifestUrl = 'https://www.bungie.net/Platform/Destiny2Manifest/';
+        const proxyUrl = 'https://api.allorigins.win/get?url=' + encodeURIComponent(manifestUrl);
+
+        console.log('Fetching from:', proxyUrl); // Debug log
+        fetch(proxyUrl, {
             headers: { 'X-API-Key': API_KEY }
         })
         .then(response => {
-            console.log('Fetch Response Status:', response.status); // Debug log
+            console.log('Fetch Response Status:', response.status, response.statusText); // Debug log
+            if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
             return response.json();
         })
         .then(data => {
-            console.log('Fetch Data:', data); // Debug log
+            console.log('Raw Fetch Data:', data); // Debug log
             const manifestData = JSON.parse(data.contents);
+            console.log('Parsed Manifest Data:', manifestData); // Debug log
             if (manifestData.ErrorCode === 1) {
-                // Display a sample item from the manifest
-                const itemHash = 347366834; // Example: Ace of Spades (exotic hand cannon)
+                const itemHash = 347366834; // Example: Ace of Spades
                 const item = manifestData.Response.destinyInventoryItemDefinition[itemHash];
                 if (item) {
                     document.getElementById('item-info').innerText = 
