@@ -40,7 +40,9 @@
 
         // Handle login button click
         document.getElementById('login').addEventListener('click', () => {
+            console.log('Login button clicked'); // Debug log
             const authUrl = `${AUTH_URL}?client_id=${CLIENT_ID}&response_type=token&redirect_uri=${encodeURIComponent(REDIRECT_URI)}`;
+            console.log('Auth URL:', authUrl); // Debug log for URL
             window.location.href = authUrl;
         });
 
