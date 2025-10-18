@@ -1,0 +1,61 @@
+import json
+import os
+import re
+
+# Load and process Destiny 2_Endgame Analysis.txt first
+txt_path = os.path.join(os.path.dirname(__file__), 'Destiny 2_Endgame Analysis.txt')
+if not os.path.exists(txt_path):
+    raise FileNotFoundError(f"Destiny 2_Endgame Analysis.txt not found in {os.path.dirname(__file__)}")
+
+with open(txt_path, 'r', encoding='utf-8') as f:
+    weapon_lines = [line.strip() for line in f if line.strip()]
+
+# Load DestinyInventoryItemDefinition.json from the current directory
+json_path = os.path.join(os.path.dirname(__file__), 'DestinyInventoryItemDefinition.json')
+print(f"Looking for DestinyInventoryItemDefinition.json at: {json_path}")  # Debug print
+if not os.path.exists(json_path):
+    raise FileNotFoundError(f"DestinyInventoryItemDefinition.json not found in {json_path}")
+
+with open(json_path, 'r', encoding='utf-8') as f:
+    bungie_data = json.load(f)
+
+# Match weapon names to hash IDs and write to new file in original order
+output_path = os.path.join(os.path.dirname(__file__), 'WeaponHashes.txt')
+with open(output_path, 'w', encoding='utf-8') as output_file:
+    for line in weapon_lines:
+        if line.endswith(':') and ' (' not in line:  # Detect category headers
+            output_file.write(f"{line}\n")
+            print(f"Category: {line}")
+        elif line.startswith('- ') and ' (' in line:  # Process weapon lines starting with '-'
+            # Extract base weapon name and optional suffix (e.g., BRAVE, ROTN)
+            base_part = line.split(' (')[0].strip()  # Get part before '('
+            weapon_with_suffix = base_part.split('- ')[1]  # Get everything after '- '
+            # Use regex to separate base name and suffix
+            match = re.match(r'^(.*?)(?:\s+(BRAVE|ROTN)\s+version)?$', weapon_with_suffix, re.IGNORECASE)
+            if match:
+                weapon_name = match.group(1).strip()  # Base name (e.g., "Falling Guillotine")
+                suffix = match.group(2) if match.group(2) else ""  # Optional suffix (e.g., "BRAVE")
+                full_weapon = f"{weapon_name} {suffix} version".strip() if suffix else weapon_name  # Reconstruct with suffix
+
+                found = False
+                for hash_id, item in bungie_data.items():  # hash_id is the key, item is the value
+                    if 'displayProperties' in item and 'name' in item['displayProperties']:
+                        json_name = item['displayProperties']['name'].lower().strip()  # Normalize JSON name
+                        if json_name == weapon_name.lower().strip():  # Match base name
+                            # Check for enhanced status
+                            is_enhanced = ('tooltipNotifications' in item and
+                                          any("can be enhanced" in notif['displayString'].lower() or
+                                              "fully enhanced" in notif['displayString'].lower()
+                                              for notif in item.get('tooltipNotifications', [])))
+                            if is_enhanced or not suffix:  # Match if enhanced or no suffix required
+                                output_file.write(f"- {full_weapon}, {hash_id}\n")
+                                print(f"Weapon: {full_weapon}, Hash ID: {hash_id}")
+                                found = True
+                                break
+                if not found:
+                    output_file.write(f"- {full_weapon}, Not Found\n")
+                    print(f"Weapon: {full_weapon} not found in DestinyInventoryItemDefinition.json")
+        else:
+            # Handle other lines (e.g., malformed or comments)
+            output_file.write(f"{line}, Not Found\n")
+            print(f"Line: {line} has unexpected format and no match attempted")
