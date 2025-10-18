@@ -8,7 +8,6 @@ if not os.path.exists(txt_path):
 
 with open(txt_path, 'r', encoding='utf-8') as f:
     weapon_lines = [line.strip() for line in f if line.strip()]
-    print(f"Loaded {len(weapon_lines)} lines from {txt_path}")
 
 # Load DestinyCollectibleDefinition.json from the current directory
 json_path = os.path.join(os.path.dirname(__file__), 'DestinyCollectibleDefinition.json')
@@ -17,54 +16,48 @@ if not os.path.exists(json_path):
     raise FileNotFoundError(f"DestinyCollectibleDefinition.json not found in {json_path}")
 
 with open(json_path, 'r', encoding='utf-8') as f:
-    collectible_data = json.load(f)
-    print(f"Loaded {len(collectible_data)} entries from {json_path}")
+    bungie_data = json.load(f)
 
-# Build a dictionary for fast name-to-hash lookup
-name_to_hash = {}
-for item in collectible_data.values():
-    if 'displayProperties' in item and 'name' in item['displayProperties'] and 'itemHash' in item:
-        name = item['displayProperties']['name'].lower().strip()
-        name_to_hash[name] = item['itemHash']
-print(f"Indexed {len(name_to_hash)} unique weapon names")
-
-# Match weapon names to hash IDs and write to new file in original order
+# Match weapon names to hash IDs and write to new file in original order 
 output_path = os.path.join(os.path.dirname(__file__), 'WeaponHashes.txt')
-with open(output_path, 'w', encoding='utf-8') as output_file:  # 'w' mode overwrites existing file
+with open(output_path, 'w', encoding='utf-8') as output_file:
     for line in weapon_lines:
         if line.endswith(':') and ' (' not in line:  # Detect category headers
             output_file.write(f"{line}\n")
             print(f"Category: {line}")
         elif line.startswith('- ') and ' (' in line:  # Process weapon lines starting with '-'
-            # Extract base weapon name and optional variant
+            # Extract base weapon name
             base_part = line.split(' (')[0].strip()  # Get part before '('
-            weapon_with_variant = base_part.split('- ')[1]  # Get everything after '- '
-            if ' (' in weapon_with_variant:
-                last_open_paren = weapon_with_variant.rindex(' (')
-                weapon_name = weapon_with_variant[:last_open_paren].strip()
-                variant = weapon_with_variant[last_open_paren + 2:-1].strip()  # Remove trailing ")"
-                full_weapon = f"{weapon_name} ({variant})"
-            else:
-                weapon_name = weapon_with_variant
-                full_weapon = weapon_name
+            weapon_name = base_part.split('- ')[1].strip()  # Get base name after '- '
 
-            # Find the weapon hash using the pre-built dictionary
-            item_hash = None
-            full_weapon_lower = full_weapon.lower().strip()
-            if full_weapon_lower in name_to_hash:
-                item_hash = name_to_hash[full_weapon_lower]
-                print(f"Found match for {full_weapon} with itemHash: {item_hash}")
-            elif not variant and weapon_name.lower().strip() in name_to_hash:
-                item_hash = name_to_hash[weapon_name.lower().strip()]
-                print(f"Found match for {weapon_name} with itemHash: {item_hash}")
+            found = False
+            for item in bungie_data.values():
+                if 'displayProperties' in item and 'name' in item['displayProperties']:
+                    json_name = item['displayProperties']['name'].lower().strip()  # Normalize JSON name
+                    if json_name == weapon_name.lower().strip():  # Match base name
+                        item_hash = item.get('itemHash')  # Use itemHash field
+                        if item_hash is not None:
+                            output_file.write(f"- {weapon_name}, {item_hash}\n")
+                            print(f"Weapon: {weapon_name}, Hash ID: {item_hash}")
+                            found = True
+                            break
+            if not found:
+                output_file.write(f"- {weapon_name}, Not Found\n")
+                print(f"Weapon: {weapon_name} not found in DestinyCollectibleDefinition.json")
 
-            # Output the weapon with its hash
-            if item_hash:
-                output_file.write(f"- {full_weapon}, {item_hash}\n")
-                print(f"Weapon: {full_weapon}, Hash ID: {item_hash}")
-            else:
-                output_file.write(f"- {full_weapon}, Not Found\n")
-                print(f"Weapon: {full_weapon} not found in DestinyCollectibleDefinition.json")
+            # Check for Adept, Timelost, Harrowed variants
+            variants = ['Adept', 'Timelost', 'Harrowed']
+            for var in variants:
+                variant_name = f"{weapon_name} ({var})"
+                for item in bungie_data.values():
+                    if 'displayProperties' in item and 'name' in item['displayProperties']:
+                        json_name = item['displayProperties']['name'].lower().strip()  # Normalize JSON name
+                        if json_name == variant_name.lower().strip():  # Match variant name
+                            item_hash = item.get('itemHash')  # Use itemHash field
+                            if item_hash is not None:
+                                output_file.write(f"- {variant_name}, {item_hash}\n")
+                                print(f"Weapon: {variant_name}, Hash ID: {item_hash}")
+                                break
         else:
             # Handle other lines (e.g., malformed or comments)
             output_file.write(f"{line}, Not Found\n")
