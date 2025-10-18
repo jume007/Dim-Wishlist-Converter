@@ -11,54 +11,88 @@ with open(txt_path, 'r', encoding='utf-8') as f:
 
 # Load DestinyCollectibleDefinition.json from the current directory
 json_path = os.path.join(os.path.dirname(__file__), 'DestinyCollectibleDefinition.json')
-print(f"Looking for DestinyCollectibleDefinition.json at: {json_path}")  # Debug print
 if not os.path.exists(json_path):
     raise FileNotFoundError(f"DestinyCollectibleDefinition.json not found in {json_path}")
 
 with open(json_path, 'r', encoding='utf-8') as f:
-    bungie_data = json.load(f)
+    collectible_data = json.load(f)
 
-# Match weapon names to hash IDs and write to new file in original order 
+# Match all weapon names to hash IDs and write to new file
 output_path = os.path.join(os.path.dirname(__file__), 'WeaponHashes.txt')
-with open(output_path, 'w', encoding='utf-8') as output_file:
+with open(output_path, 'w', encoding='utf-8') as output_file:  # 'w' mode overwrites existing file
     for line in weapon_lines:
         if line.endswith(':') and ' (' not in line:  # Detect category headers
             output_file.write(f"{line}\n")
-            print(f"Category: {line}")
-        elif line.startswith('- ') and ' (' in line:  # Process weapon lines starting with '-'
-            # Extract base weapon name
+            continue
+        elif line.startswith('- '):  # Process all weapon lines
+            # Extract base weapon name, ignoring columns and traits
             base_part = line.split(' (')[0].strip()  # Get part before '('
-            weapon_name = base_part.split('- ')[1].strip()  # Get base name after '- '
+            weapon_name = ' '.join(base_part.split('- ')[1].split()[:-2] if any(v in line for v in ['BRAVE version', 'RotN version']) else base_part.split('- ')[1].split()).strip()
 
-            found = False
-            for item in bungie_data.values():
-                if 'displayProperties' in item and 'name' in item['displayProperties']:
-                    json_name = item['displayProperties']['name'].lower().strip()  # Normalize JSON name
-                    if json_name == weapon_name.lower().strip():  # Match base name
-                        item_hash = item.get('itemHash')  # Use itemHash field
-                        if item_hash is not None:
-                            output_file.write(f"- {weapon_name}, {item_hash}\n")
-                            print(f"Weapon: {weapon_name}, Hash ID: {item_hash}")
-                            found = True
-                            break
-            if not found:
-                output_file.write(f"- {weapon_name}, Not Found\n")
-                print(f"Weapon: {weapon_name} not found in DestinyCollectibleDefinition.json")
-
-            # Check for Adept, Timelost, Harrowed variants
-            variants = ['Adept', 'Timelost', 'Harrowed']
-            for var in variants:
-                variant_name = f"{weapon_name} ({var})"
-                for item in bungie_data.values():
+            # Handle normal weapons and standard variants (Adept, Timelost, Harrowed)
+            if 'BRAVE version' not in line and 'RotN version' not in line and ' (' in line:
+                found = False
+                for item in collectible_data.values():
                     if 'displayProperties' in item and 'name' in item['displayProperties']:
-                        json_name = item['displayProperties']['name'].lower().strip()  # Normalize JSON name
-                        if json_name == variant_name.lower().strip():  # Match variant name
-                            item_hash = item.get('itemHash')  # Use itemHash field
+                        json_name = item['displayProperties']['name'].lower().strip()
+                        if json_name == weapon_name.lower().strip():
+                            item_hash = item.get('itemHash')
                             if item_hash is not None:
-                                output_file.write(f"- {variant_name}, {item_hash}\n")
-                                print(f"Weapon: {variant_name}, Hash ID: {item_hash}")
+                                output_file.write(f"- {weapon_name}, {item_hash}\n")
+                                found = True
                                 break
+                if not found:
+                    output_file.write(f"- {weapon_name}, Not Found\n")
+                # Check for Adept, Timelost, Harrowed variants
+                variants = ['Adept', 'Timelost', 'Harrowed']
+                for var in variants:
+                    variant_name = f"{weapon_name} ({var})"
+                    for item in collectible_data.values():
+                        if 'displayProperties' in item and 'name' in item['displayProperties']:
+                            json_name = item['displayProperties']['name'].lower().strip()
+                            if json_name == variant_name.lower().strip():
+                                item_hash = item.get('itemHash')
+                                if item_hash is not None:
+                                    output_file.write(f"- {variant_name}, {item_hash}\n")
+                                    break
+
+            # Handle BRAVE version
+            elif 'BRAVE version' in line:
+                full_weapon = f"{weapon_name} (BRAVE)"
+                for item in collectible_data.values():
+                    if ('displayProperties' in item and 'name' in item['displayProperties'] and
+                        'itemHash' in item and 'sourceString' in item):
+                        json_name = item['displayProperties']['name'].lower().strip()
+                        source = item['sourceString'].lower().strip() if item['sourceString'] else ""
+                        if json_name == weapon_name.lower().strip() and 'into the light' in source:
+                            item_hash = item['itemHash']
+                            output_file.write(f"- {full_weapon}, {item_hash}\n")
+                            break
+
+            # Handle RotN version (normal and Adept)
+            elif 'RotN version' in line:
+                # Check for normal RotN variant first
+                for item in collectible_data.values():
+                    if ('displayProperties' in item and 'name' in item['displayProperties'] and
+                        'itemHash' in item and 'sourceString' in item):
+                        json_name = item['displayProperties']['name'].lower().strip()
+                        source = item['sourceString'].lower().strip() if item['sourceString'] else ""
+                        if json_name == weapon_name.lower().strip() and 'rite of the nine' in source and 'adept' not in json_name.lower():
+                            item_hash = item['itemHash']
+                            full_weapon = f"{weapon_name} (RoTn)"
+                            output_file.write(f"- {full_weapon}, {item_hash}\n")
+                            break
+                # Check for RotN Adept variant
+                for item in collectible_data.values():
+                    if ('displayProperties' in item and 'name' in item['displayProperties'] and
+                        'itemHash' in item and 'sourceString' in item):
+                        json_name = item['displayProperties']['name'].lower().strip()
+                        source = item['sourceString'].lower().strip() if item['sourceString'] else ""
+                        if f"{weapon_name.lower()} (adept)" in json_name and 'rite of the nine' in source:
+                            item_hash = item['itemHash']
+                            full_weapon = f"{weapon_name} (RoTn Adept)"
+                            output_file.write(f"- {full_weapon}, {item_hash}\n")
+                            break
         else:
             # Handle other lines (e.g., malformed or comments)
             output_file.write(f"{line}, Not Found\n")
-            print(f"Line: {line} has unexpected format and no match attempted")
