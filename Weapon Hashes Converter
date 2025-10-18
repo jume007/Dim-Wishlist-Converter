@@ -1,6 +1,5 @@
 import json
 import os
-import re
 
 # Load and process Destiny 2_Endgame Analysis.txt first
 txt_path = os.path.join(os.path.dirname(__file__), 'Destiny 2_Endgame Analysis.txt')
@@ -9,6 +8,7 @@ if not os.path.exists(txt_path):
 
 with open(txt_path, 'r', encoding='utf-8') as f:
     weapon_lines = [line.strip() for line in f if line.strip()]
+    print(f"Loaded {len(weapon_lines)} lines from {txt_path}")
 
 # Load DestinyCollectibleDefinition.json from the current directory
 json_path = os.path.join(os.path.dirname(__file__), 'DestinyCollectibleDefinition.json')
@@ -17,45 +17,54 @@ if not os.path.exists(json_path):
     raise FileNotFoundError(f"DestinyCollectibleDefinition.json not found in {json_path}")
 
 with open(json_path, 'r', encoding='utf-8') as f:
-    bungie_data = json.load(f)
+    collectible_data = json.load(f)
+    print(f"Loaded {len(collectible_data)} entries from {json_path}")
 
-# Match weapon names to hash IDs and write to new file in original order 
+# Build a dictionary for fast name-to-hash lookup
+name_to_hash = {}
+for item in collectible_data.values():
+    if 'displayProperties' in item and 'name' in item['displayProperties'] and 'itemHash' in item:
+        name = item['displayProperties']['name'].lower().strip()
+        name_to_hash[name] = item['itemHash']
+print(f"Indexed {len(name_to_hash)} unique weapon names")
+
+# Match weapon names to hash IDs and write to new file in original order
 output_path = os.path.join(os.path.dirname(__file__), 'WeaponHashes.txt')
-with open(output_path, 'w', encoding='utf-8') as output_file:
+with open(output_path, 'w', encoding='utf-8') as output_file:  # 'w' mode overwrites existing file
     for line in weapon_lines:
         if line.endswith(':') and ' (' not in line:  # Detect category headers
             output_file.write(f"{line}\n")
             print(f"Category: {line}")
         elif line.startswith('- ') and ' (' in line:  # Process weapon lines starting with '-'
-            # Extract base weapon name and optional suffix (e.g., BRAVE, ROTN)
+            # Extract base weapon name and optional variant
             base_part = line.split(' (')[0].strip()  # Get part before '('
-            weapon_with_suffix = base_part.split('- ')[1]  # Get everything after '- '
-            # Use regex to separate base name and suffix
-            match = re.match(r'^(.*?)(?:\s+(BRAVE|ROTN)\s+version)?$', weapon_with_suffix, re.IGNORECASE)
-            if match:
-                weapon_name = match.group(1).strip()  # Base name (e.g., "Falling Guillotine")
-                suffix = match.group(2) if match.group(2) else ""  # Optional suffix (e.g., "BRAVE")
-                full_weapon = f"{weapon_name} {suffix} version".strip() if suffix else weapon_name  # Reconstruct with suffix
+            weapon_with_variant = base_part.split('- ')[1]  # Get everything after '- '
+            if ' (' in weapon_with_variant:
+                last_open_paren = weapon_with_variant.rindex(' (')
+                weapon_name = weapon_with_variant[:last_open_paren].strip()
+                variant = weapon_with_variant[last_open_paren + 2:-1].strip()  # Remove trailing ")"
+                full_weapon = f"{weapon_name} ({variant})"
+            else:
+                weapon_name = weapon_with_variant
+                full_weapon = weapon_name
 
-                found = False
-                for item in bungie_data.values():
-                    if 'displayProperties' in item and 'name' in item['displayProperties']:
-                        json_name = item['displayProperties']['name'].lower().strip()  # Normalize JSON name
-                        if json_name == weapon_name.lower().strip():  # Match base name
-                            is_enhanced = ('tooltipNotifications' in item and
-                                           any("can be enhanced" in notif['displayString'].lower() or
-                                               "fully enhanced" in notif['displayString'].lower()
-                                               for notif in item.get('tooltipNotifications', [])))
-                            if is_enhanced or not suffix:
-                                item_hash = item.get('itemHash')  # Use itemHash field
-                                if item_hash is not None:
-                                    output_file.write(f"- {full_weapon}, {item_hash}\n")
-                                    print(f"Weapon: {full_weapon}, Hash ID: {item_hash}")
-                                    found = True
-                                    break
-                if not found:
-                    output_file.write(f"- {full_weapon}, Not Found\n")
-                    print(f"Weapon: {full_weapon} not found in DestinyCollectibleDefinition.json")
+            # Find the weapon hash using the pre-built dictionary
+            item_hash = None
+            full_weapon_lower = full_weapon.lower().strip()
+            if full_weapon_lower in name_to_hash:
+                item_hash = name_to_hash[full_weapon_lower]
+                print(f"Found match for {full_weapon} with itemHash: {item_hash}")
+            elif not variant and weapon_name.lower().strip() in name_to_hash:
+                item_hash = name_to_hash[weapon_name.lower().strip()]
+                print(f"Found match for {weapon_name} with itemHash: {item_hash}")
+
+            # Output the weapon with its hash
+            if item_hash:
+                output_file.write(f"- {full_weapon}, {item_hash}\n")
+                print(f"Weapon: {full_weapon}, Hash ID: {item_hash}")
+            else:
+                output_file.write(f"- {full_weapon}, Not Found\n")
+                print(f"Weapon: {full_weapon} not found in DestinyCollectibleDefinition.json")
         else:
             # Handle other lines (e.g., malformed or comments)
             output_file.write(f"{line}, Not Found\n")
