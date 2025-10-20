@@ -1,0 +1,1626 @@
+{
+    "No Hesitation": {
+        "itemHash": 1801007332,
+        "originTrait": "Dealer's Choice",
+        "nonEnhancedHash": 1988485648,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Cusp Sempiternal": {
+        "itemHash": 2579693381,
+        "originTrait": "Frame of Reference",
+        "nonEnhancedHash": 2597494435,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 943022827,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Adamantite": {
+        "itemHash": 3229982889,
+        "originTrait": "Runneth Over",
+        "nonEnhancedHash": 120721526,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1887054634,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Reckless Oracle": {
+        "itemHash": 3385326721,
+        "originTrait": "Photoinhibition",
+        "nonEnhancedHash": 511914882,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Abyss Defiant": {
+        "itemHash": 833898322,
+        "originTrait": "Cursed Thrall",
+        "nonEnhancedHash": 1156201379,
+        "nonEnhancedType": "Common Trait"
+    },
+    "The Summoner": {
+        "itemHash": 1907698332,
+        "originTrait": "Wild Card",
+        "nonEnhancedHash": 1050127423,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 501821599,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "The Riposte": {
+        "itemHash": 3754408118,
+        "originTrait": "None"
+    },
+    "Everburning Glitz": {
+        "itemHash": 2857870254,
+        "originTrait": "Fleet Footed",
+        "nonEnhancedHash": 65797256,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1939575288,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "VS Pyroelectric Propellant": {
+        "itemHash": 4232480042,
+        "originTrait": "Bray Legacy",
+        "nonEnhancedHash": 4139916815,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 4232410959,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Adamantite (Adept)": {
+        "itemHash": 3485029080,
+        "originTrait": "Runneth Over",
+        "nonEnhancedHash": 120721526,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1887054634,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Abyss Defiant (Adept)": {
+        "itemHash": 3782662983,
+        "originTrait": "Cursed Thrall",
+        "nonEnhancedHash": 1156201379,
+        "nonEnhancedType": "Common Trait"
+    },
+    "The Summoner (Adept)": {
+        "itemHash": 3514144928,
+        "originTrait": "Wild Card",
+        "nonEnhancedHash": 1050127423,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 501821599,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Non-Denouement": {
+        "itemHash": 1770490683,
+        "originTrait": "Collective Purpose",
+        "nonEnhancedHash": 1878756191,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Accrued Redemption": {
+        "itemHash": 4095896073,
+        "originTrait": "Photoinhibition",
+        "nonEnhancedHash": 511914882,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Fortunate Star": {
+        "itemHash": 2326578623,
+        "originTrait": "Veist Stinger",
+        "nonEnhancedHash": 3988215619,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 54024075,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Anamnesis": {
+        "itemHash": 2291392465,
+        "originTrait": "Runneth Over",
+        "nonEnhancedHash": 120721526,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1887054634,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Pre Astyanax IV": {
+        "itemHash": 192784503,
+        "originTrait": "Wild Card",
+        "nonEnhancedHash": 1050127423,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 501821599,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Tyranny of Heaven": {
+        "itemHash": 2721249463,
+        "originTrait": "Explosive Pact",
+        "nonEnhancedHash": 1489048135,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Mercury-A": {
+        "itemHash": 2838279629,
+        "originTrait": "Tenacity",
+        "nonEnhancedHash": 3911709647,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 483923727,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Non-Denouement (Adept)": {
+        "itemHash": 1039915310,
+        "originTrait": "Collective Purpose",
+        "nonEnhancedHash": 1878756191,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Anamnesis (Adept)": {
+        "itemHash": 1536325168,
+        "originTrait": "Runneth Over",
+        "nonEnhancedHash": 120721526,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1887054634,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Pre Astyanax IV (Adept)": {
+        "itemHash": 496556698,
+        "originTrait": "Wild Card",
+        "nonEnhancedHash": 1050127423,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 501821599,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Word of Crota": {
+        "itemHash": 120706239,
+        "originTrait": "Cursed Thrall",
+        "nonEnhancedHash": 1156201379,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Posterity": {
+        "itemHash": 3281285075,
+        "originTrait": "Bray Inheritance",
+        "nonEnhancedHash": 766321425,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1501421141,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Aureus Neutralizer": {
+        "itemHash": 3981920134,
+        "originTrait": "Hakke Breach Armaments",
+        "nonEnhancedHash": 1607056502,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 250902314,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Sightline Survey": {
+        "itemHash": 2350330520,
+        "originTrait": "Radiolaria Transposer",
+        "nonEnhancedHash": 253121539,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Agape": {
+        "itemHash": 4124362340,
+        "originTrait": "Exhaustive Research",
+        "nonEnhancedHash": 1906137414,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1278990682,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Exalted Truth": {
+        "itemHash": 548809020,
+        "originTrait": "One Quiet Moment",
+        "nonEnhancedHash": 4091460919,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 4102814423,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Unloved": {
+        "itemHash": 2485881870,
+        "originTrait": "Subjugation",
+        "nonEnhancedHash": 1298135794,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Solemn Remembrance": {
+        "itemHash": 4116518582,
+        "originTrait": "None"
+    },
+    "Ancient Gospel": {
+        "itemHash": 48643186,
+        "originTrait": "Photoinhibition",
+        "nonEnhancedHash": 511914882,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Zaouli's Bane": {
+        "itemHash": 431721920,
+        "originTrait": "Runneth Over",
+        "nonEnhancedHash": 120721526,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1887054634,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Midnight Coup": {
+        "itemHash": 1128225405,
+        "originTrait": "Indomitability",
+        "nonEnhancedHash": 2489430594,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Fatebringer": {
+        "itemHash": 2171478765,
+        "originTrait": "Timelost Magazine",
+        "nonEnhancedHash": 2589407652,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Maahes HC4": {
+        "itemHash": 1246793994,
+        "originTrait": "Omolon Fluid Dynamics",
+        "nonEnhancedHash": 2839173408,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1186131696,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Word of Crota (Adept)": {
+        "itemHash": 3926103986,
+        "originTrait": "Cursed Thrall",
+        "nonEnhancedHash": 1156201379,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Exalted Truth (Adept)": {
+        "itemHash": 1705843397,
+        "originTrait": "One Quiet Moment",
+        "nonEnhancedHash": 4091460919,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 4102814423,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Zaouli's Bane (Harrowed)": {
+        "itemHash": 291092617,
+        "originTrait": "Runneth Over",
+        "nonEnhancedHash": 120721526,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1887054634,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Fatebringer (Timelost)": {
+        "itemHash": 1216319404,
+        "originTrait": "Timelost Magazine",
+        "nonEnhancedHash": 2589407652,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Gridskipper": {
+        "itemHash": 1621558458,
+        "originTrait": "Splicer Surge",
+        "nonEnhancedHash": 3404929162,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Joxer's Longsword": {
+        "itemHash": 157601190,
+        "originTrait": "One Quiet Moment",
+        "nonEnhancedHash": 4091460919,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 4102814423,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Claws of the Wolf": {
+        "itemHash": 1280933460,
+        "originTrait": "Skulking Wolf",
+        "nonEnhancedHash": 3989629871,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1831023215,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Vantage Point": {
+        "itemHash": 3830941962,
+        "originTrait": "Dark Ether Reaper",
+        "nonEnhancedHash": 2041432007,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Oversoul Edict": {
+        "itemHash": 1098171824,
+        "originTrait": "Cursed Thrall",
+        "nonEnhancedHash": 1156201379,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Nullify": {
+        "itemHash": 859869931,
+        "originTrait": "Collective Purpose",
+        "nonEnhancedHash": 1878756191,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Corrasion": {
+        "itemHash": 2126178511,
+        "originTrait": "Radiolaria Transposer",
+        "nonEnhancedHash": 253121539,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Elsie's Rifle": {
+        "itemHash": 2372514509,
+        "originTrait": "Indomitability",
+        "nonEnhancedHash": 2489430594,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Jurassic Green": {
+        "itemHash": 2261046232,
+        "originTrait": "Field-Tested",
+        "nonEnhancedHash": 43555494,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1064478151,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Adhortative": {
+        "itemHash": 1167153950,
+        "originTrait": "Nano-Munitions",
+        "nonEnhancedHash": 19542588,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Darkest Before": {
+        "itemHash": 2481758391,
+        "originTrait": "Crossing Over",
+        "nonEnhancedHash": 4129855581,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Cruel Mercy": {
+        "itemHash": 233635202,
+        "originTrait": "Stunning Recovery",
+        "nonEnhancedHash": 1281216113,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 3764430901,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Blast Furnace": {
+        "itemHash": 3843477312,
+        "originTrait": "Indomitability",
+        "nonEnhancedHash": 2489430594,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Stars in Shadow": {
+        "itemHash": 2050789284,
+        "originTrait": "Wild Card",
+        "nonEnhancedHash": 1050127423,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 501821599,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Oversoul Edict (Adept)": {
+        "itemHash": 578105049,
+        "originTrait": "Cursed Thrall",
+        "nonEnhancedHash": 1156201379,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Nullify (Adept)": {
+        "itemHash": 892183998,
+        "originTrait": "Collective Purpose",
+        "nonEnhancedHash": 1878756191,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Cruel Mercy (Adept)": {
+        "itemHash": 2347178967,
+        "originTrait": "Stunning Recovery",
+        "nonEnhancedHash": 1281216113,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 3764430901,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Unworthy": {
+        "itemHash": 2226158470,
+        "originTrait": "Subjugation",
+        "nonEnhancedHash": 1298135794,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Aisha's Embrace": {
+        "itemHash": 2638190703,
+        "originTrait": "Roar of Battle",
+        "nonEnhancedHash": 1673863459,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 4236235115,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Trustee": {
+        "itemHash": 1392919471,
+        "originTrait": "Bray Inheritance",
+        "nonEnhancedHash": 766321425,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1501421141,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Vouchsafe": {
+        "itemHash": 3242168339,
+        "originTrait": "Advanced Reflexes",
+        "nonEnhancedHash": 930692523,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Forced Memorializer": {
+        "itemHash": 1197073834,
+        "originTrait": "Problem Solver",
+        "nonEnhancedHash": 3454102905,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 2223800157,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Hung Jury SR4": {
+        "itemHash": 4281371574,
+        "originTrait": "Indomitability",
+        "nonEnhancedHash": 2489430594,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Vision of Confluence": {
+        "itemHash": 3186018373,
+        "originTrait": "Timelost Magazine",
+        "nonEnhancedHash": 2589407652,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Randy's Throwing Knife": {
+        "itemHash": 3535742959,
+        "originTrait": "One Quiet Moment",
+        "nonEnhancedHash": 4091460919,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 4102814423,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Patron of Lost Causes": {
+        "itemHash": 2723241847,
+        "originTrait": "Cast No Shadows",
+        "nonEnhancedHash": 2838996248,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Nature Reclaimed": {
+        "itemHash": 2639921391,
+        "originTrait": "Skulking Wolf",
+        "nonEnhancedHash": 3989629871,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1831023215,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Tarnished Mettle": {
+        "itemHash": 2218569744,
+        "originTrait": "Right Hook",
+        "nonEnhancedHash": 3907865655,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Doom of Chelchis": {
+        "itemHash": 1937552980,
+        "originTrait": "Runneth Over",
+        "nonEnhancedHash": 120721526,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1887054634,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Aisha's Embrace (Adept)": {
+        "itemHash": 3245493570,
+        "originTrait": "Roar of Battle",
+        "nonEnhancedHash": 1673863459,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 4236235115,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Hung Jury SR4 (Adept)": {
+        "itemHash": 681067419,
+        "originTrait": "Indomitability",
+        "nonEnhancedHash": 2489430594,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Vision of Confluence (Timelost)": {
+        "itemHash": 690668916,
+        "originTrait": "Timelost Magazine",
+        "nonEnhancedHash": 2589407652,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Doom of Chelchis (Harrowed)": {
+        "itemHash": 1184692845,
+        "originTrait": "Runneth Over",
+        "nonEnhancedHash": 120721526,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1887054634,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Insurmountable": {
+        "itemHash": 414045521,
+        "originTrait": "Dark Ether Reaper",
+        "nonEnhancedHash": 2041432007,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Drang": {
+        "itemHash": 2362471600,
+        "originTrait": "Vanguard Determination",
+        "nonEnhancedHash": 3846229553,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1621842933,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Heliocentric QSc": {
+        "itemHash": 3998080529,
+        "originTrait": "Nadir Focus",
+        "nonEnhancedHash": 2509860981,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1585115329,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Forgiveness": {
+        "itemHash": 2345794502,
+        "originTrait": "Roar of Battle",
+        "nonEnhancedHash": 1673863459,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 4236235115,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Division": {
+        "itemHash": 2903168058,
+        "originTrait": "Runneth Over",
+        "nonEnhancedHash": 120721526,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1887054634,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Anonymous Autumn": {
+        "itemHash": 3222518097,
+        "originTrait": "Field-Tested",
+        "nonEnhancedHash": 43555494,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1064478151,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Brigand's Law": {
+        "itemHash": 1298815317,
+        "originTrait": "Right Hook",
+        "nonEnhancedHash": 3907865655,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Drang (Baroque)": {
+        "itemHash": 502356570,
+        "originTrait": "To Excess",
+        "nonEnhancedHash": 1905044254,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Forgiveness (Adept)": {
+        "itemHash": 2405619467,
+        "originTrait": "Roar of Battle",
+        "nonEnhancedHash": 1673863459,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 4236235115,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Division (Adept)": {
+        "itemHash": 3734001727,
+        "originTrait": "Runneth Over",
+        "nonEnhancedHash": 120721526,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1887054634,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Multimach CCX": {
+        "itemHash": 3717177717,
+        "originTrait": "Field-Tested",
+        "nonEnhancedHash": 43555494,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1064478151,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Yeartide Apex": {
+        "itemHash": 3293207827,
+        "originTrait": "Tex Balanced Stock",
+        "nonEnhancedHash": 2437618208,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1043703792,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "The Recluse": {
+        "itemHash": 3354242550,
+        "originTrait": "Indomitability",
+        "nonEnhancedHash": 2489430594,
+        "nonEnhancedType": "Common Trait"
+    },
+    "MIDA Mini-Tool": {
+        "itemHash": 3089417788,
+        "originTrait": "Vanguard Determination",
+        "nonEnhancedHash": 3846229553,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1621842933,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Antedate": {
+        "itemHash": 1435808083,
+        "originTrait": "Frame of Reference",
+        "nonEnhancedHash": 2597494435,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 943022827,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "The Title": {
+        "itemHash": 294129361,
+        "originTrait": "Hakke Breach Armaments",
+        "nonEnhancedHash": 1607056502,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 250902314,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Gunburn": {
+        "itemHash": 3431536253,
+        "originTrait": "Veist Stinger",
+        "nonEnhancedHash": 3988215619,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 54024075,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Imminence": {
+        "itemHash": 1258168956,
+        "originTrait": "Collective Purpose",
+        "nonEnhancedHash": 1878756191,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Shayura's Wrath": {
+        "itemHash": 3682803680,
+        "originTrait": "One Quiet Moment",
+        "nonEnhancedHash": 4091460919,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 4102814423,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Noxious Vetiver": {
+        "itemHash": 825495813,
+        "originTrait": "Dark Ether Reaper",
+        "nonEnhancedHash": 2041432007,
+        "nonEnhancedType": "Common Trait"
+    },
+    "No Survivors (RoTn)": {
+        "itemHash": 4228149269,
+        "originTrait": "Gravity Well",
+        "nonEnhancedHash": 59871045,
+        "nonEnhancedType": "Common Trait"
+    },
+    "No Survivors (RoTn Adept)": {
+        "itemHash": 189194532,
+        "originTrait": "Gravity Well",
+        "nonEnhancedHash": 59871045,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Imminence (Adept)": {
+        "itemHash": 3951511045,
+        "originTrait": "Collective Purpose",
+        "nonEnhancedHash": 1878756191,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Shayura's Wrath (Adept)": {
+        "itemHash": 4023807721,
+        "originTrait": "One Quiet Moment",
+        "nonEnhancedHash": 4091460919,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 4102814423,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "VS Velocity Baton": {
+        "itemHash": 1762785663,
+        "originTrait": "Bray Legacy",
+        "nonEnhancedHash": 4139916815,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 4232410959,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Festival Flight": {
+        "itemHash": 4019651319,
+        "originTrait": "Dream Work",
+        "nonEnhancedHash": 1380061575,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1198287879,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Lost Signal": {
+        "itemHash": 1197771438,
+        "originTrait": "Radiolaria Transposer",
+        "nonEnhancedHash": 253121539,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Psychopomp": {
+        "itemHash": 4028298892,
+        "originTrait": "Runneth Over",
+        "nonEnhancedHash": 120721526,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1887054634,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Theodolite": {
+        "itemHash": 4146673635,
+        "originTrait": "Problem Solver",
+        "nonEnhancedHash": 3454102905,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 2223800157,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Liturgy": {
+        "itemHash": 2599338624,
+        "originTrait": "Dark Ether Reaper",
+        "nonEnhancedHash": 2041432007,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Romantic Death": {
+        "itemHash": 4169082039,
+        "originTrait": "Tenacity",
+        "nonEnhancedHash": 3911709647,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 483923727,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Martyr's Retribution": {
+        "itemHash": 3850168899,
+        "originTrait": "Cast No Shadows",
+        "nonEnhancedHash": 2838996248,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Forbearance": {
+        "itemHash": 613334176,
+        "originTrait": "Souldrinker",
+        "nonEnhancedHash": 3363267119,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 3989173487,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Tusk of the Boar": {
+        "itemHash": 1218113510,
+        "originTrait": "Field-Tested",
+        "nonEnhancedHash": 43555494,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1064478151,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "The Mountaintop (BRAVE)": {
+        "itemHash": 568611922,
+        "originTrait": "Indomitability",
+        "nonEnhancedHash": 2489430594,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Wilderflight (RoTn)": {
+        "itemHash": 1206729100,
+        "originTrait": "Gravity Well",
+        "nonEnhancedHash": 59871045,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Wilderflight (RoTn Adept)": {
+        "itemHash": 559523765,
+        "originTrait": "Gravity Well",
+        "nonEnhancedHash": 59871045,
+        "nonEnhancedType": "Common Trait"
+    },
+    "New Pacific Epitaph (RoTn)": {
+        "itemHash": 2059741649,
+        "originTrait": "Gravity Well",
+        "nonEnhancedHash": 59871045,
+        "nonEnhancedType": "Common Trait"
+    },
+    "New Pacific Epitaph (RoTn Adept)": {
+        "itemHash": 233402416,
+        "originTrait": "Gravity Well",
+        "nonEnhancedHash": 59871045,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Forbearance (BRAVE)": {
+        "itemHash": 568611921,
+        "originTrait": "Indomitability",
+        "nonEnhancedHash": 2489430594,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Psychopomp (Adept)": {
+        "itemHash": 2553380021,
+        "originTrait": "Runneth Over",
+        "nonEnhancedHash": 120721526,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1887054634,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Forbearance (Adept)": {
+        "itemHash": 4038592169,
+        "originTrait": "Souldrinker",
+        "nonEnhancedHash": 3363267119,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 3989173487,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Lionfish-4fr": {
+        "itemHash": 2423071981,
+        "originTrait": "Problem Solver",
+        "nonEnhancedHash": 3454102905,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 2223800157,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Scatter Signal": {
+        "itemHash": 2558925366,
+        "originTrait": "Dragon's Vengeance",
+        "nonEnhancedHash": 3978094547,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Finite Maybe": {
+        "itemHash": 3241217409,
+        "originTrait": "Frame of Reference",
+        "nonEnhancedHash": 2597494435,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 943022827,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Riptide": {
+        "itemHash": 2715240478,
+        "originTrait": "One Quiet Moment",
+        "nonEnhancedHash": 4091460919,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 4102814423,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Zealot's Reward": {
+        "itemHash": 2209003210,
+        "originTrait": "Photoinhibition",
+        "nonEnhancedHash": 511914882,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Techeun Force": {
+        "itemHash": 4094657108,
+        "originTrait": "Explosive Pact",
+        "nonEnhancedHash": 1489048135,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Cartesian Coordinate": {
+        "itemHash": 2481881293,
+        "originTrait": "None"
+    },
+    "Glacioclasm": {
+        "itemHash": 1030895163,
+        "originTrait": "Dawning Surprise",
+        "nonEnhancedHash": 4264904777,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Afterlight": {
+        "itemHash": 3228630258,
+        "originTrait": "Willing Vessel",
+        "nonEnhancedHash": 878237828,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Afterlight (Adept)": {
+        "itemHash": 3953163559,
+        "originTrait": "Willing Vessel",
+        "nonEnhancedHash": 878237828,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Rake Angle": {
+        "itemHash": 2298039571,
+        "originTrait": "Stunning Recovery",
+        "nonEnhancedHash": 1281216113,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 3764430901,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Forthcoming Deviance": {
+        "itemHash": 535198113,
+        "originTrait": "Collective Purpose",
+        "nonEnhancedHash": 1878756191,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Nezarec's Whisper": {
+        "itemHash": 254636484,
+        "originTrait": "Extrovert",
+        "nonEnhancedHash": 1250481499,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Refusal of the Call": {
+        "itemHash": 3269398063,
+        "originTrait": "Runneth Over",
+        "nonEnhancedHash": 120721526,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1887054634,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Unexpected Resurgence": {
+        "itemHash": 4005780578,
+        "originTrait": "Alacrity",
+        "nonEnhancedHash": 2988596335,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 532888623,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "The Enigma": {
+        "itemHash": 2595497736,
+        "originTrait": "Psychohack",
+        "nonEnhancedHash": 357495645,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Backfang": {
+        "itemHash": 267672635,
+        "originTrait": "Gun and Run",
+        "nonEnhancedHash": 515704826,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Greasy Luck": {
+        "itemHash": 1757202961,
+        "originTrait": "Restoration Ritual",
+        "nonEnhancedHash": 398661035,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Greasy Luck (RoTn)": {
+        "itemHash": 2934305134,
+        "originTrait": "Restoration Ritual",
+        "nonEnhancedHash": 398661035,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Greasy Luck (RoTn Adept)": {
+        "itemHash": 3210739171,
+        "originTrait": "Restoration Ritual",
+        "nonEnhancedHash": 398661035,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Rake Angle (Adept)": {
+        "itemHash": 3997086838,
+        "originTrait": "Stunning Recovery",
+        "nonEnhancedHash": 1281216113,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 3764430901,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Forthcoming Deviance (Adept)": {
+        "itemHash": 3123651616,
+        "originTrait": "Collective Purpose",
+        "nonEnhancedHash": 1878756191,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Refusal of the Call (Adept)": {
+        "itemHash": 25228802,
+        "originTrait": "Runneth Over",
+        "nonEnhancedHash": 120721526,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1887054634,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Unexpected Resurgence (Adept)": {
+        "itemHash": 1141586039,
+        "originTrait": "Alacrity",
+        "nonEnhancedHash": 2988596335,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 532888623,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Greasy Luck (Adept)": {
+        "itemHash": 3210739171,
+        "originTrait": "Restoration Ritual",
+        "nonEnhancedHash": 398661035,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Perfect Paradox": {
+        "itemHash": 2248667690,
+        "originTrait": "Cast No Shadows",
+        "nonEnhancedHash": 2838996248,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Unvoiced": {
+        "itemHash": 3360937899,
+        "originTrait": "Subjugation",
+        "nonEnhancedHash": 1298135794,
+        "nonEnhancedType": "Common Trait"
+    },
+    "IKELOS_SG_v1.0.3": {
+        "itemHash": 1168625549,
+        "originTrait": "Rasputin's Arsenal",
+        "nonEnhancedHash": 566815328,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Until Its Return": {
+        "itemHash": 2883484461,
+        "originTrait": "Unsated Hunger",
+        "nonEnhancedHash": 2053642371,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Imperial Decree": {
+        "itemHash": 318443586,
+        "originTrait": "To Excess",
+        "nonEnhancedHash": 1905044254,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Pure Recollection": {
+        "itemHash": 1956186483,
+        "originTrait": "Roar of Battle",
+        "nonEnhancedHash": 1673863459,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 4236235115,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Heritage": {
+        "itemHash": 4248569242,
+        "originTrait": "Bray Inheritance",
+        "nonEnhancedHash": 766321425,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1501421141,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Found Verdict": {
+        "itemHash": 3197270240,
+        "originTrait": "Timelost Magazine",
+        "nonEnhancedHash": 2589407652,
+        "nonEnhancedType": "Common Trait"
+    },
+    "A Sudden Death (RoTn)": {
+        "itemHash": 1976481399,
+        "originTrait": "Gravity Well",
+        "nonEnhancedHash": 59871045,
+        "nonEnhancedType": "Common Trait"
+    },
+    "A Sudden Death (RoTn Adept)": {
+        "itemHash": 1626437786,
+        "originTrait": "Gravity Well",
+        "nonEnhancedHash": 59871045,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Found Verdict (Timelost)": {
+        "itemHash": 631439337,
+        "originTrait": "Timelost Magazine",
+        "nonEnhancedHash": 2589407652,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Praedyth's Revenge": {
+        "itemHash": 3653573172,
+        "originTrait": "Timelost Magazine",
+        "nonEnhancedHash": 2589407652,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Lance Ephemeral": {
+        "itemHash": 688593230,
+        "originTrait": "Frame of Reference",
+        "nonEnhancedHash": 2597494435,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 943022827,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "The Supremacy": {
+        "itemHash": 686951703,
+        "originTrait": "Explosive Pact",
+        "nonEnhancedHash": 1489048135,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Omniscient Eye": {
+        "itemHash": 3454326177,
+        "originTrait": "Photoinhibition",
+        "nonEnhancedHash": 511914882,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Critical Anomaly": {
+        "itemHash": 445197843,
+        "originTrait": "Collective Purpose",
+        "nonEnhancedHash": 1878756191,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Keen Thistle": {
+        "itemHash": 1893967086,
+        "originTrait": "Hakke Breach Armaments",
+        "nonEnhancedHash": 1607056502,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 250902314,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "IKELOS_SR_v1.0.3": {
+        "itemHash": 2302346155,
+        "originTrait": "Rasputin's Arsenal",
+        "nonEnhancedHash": 566815328,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Succession": {
+        "itemHash": 2990047042,
+        "originTrait": "Bray Inheritance",
+        "nonEnhancedHash": 766321425,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1501421141,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Succession (BRAVE)": {
+        "itemHash": 3612338554,
+        "originTrait": "Indomitability",
+        "nonEnhancedHash": 2489430594,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Praedyth's Revenge (Timelost)": {
+        "itemHash": 1987769101,
+        "originTrait": "Timelost Magazine",
+        "nonEnhancedHash": 2589407652,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Critical Anomaly (Adept)": {
+        "itemHash": 172461430,
+        "originTrait": "Collective Purpose",
+        "nonEnhancedHash": 1878756191,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Keen Thistle (Adept)": {
+        "itemHash": 3503560035,
+        "originTrait": "Hakke Breach Armaments",
+        "nonEnhancedHash": 1607056502,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 250902314,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "VS Chill Inhibitor": {
+        "itemHash": 1762785662,
+        "originTrait": "Bray Legacy",
+        "nonEnhancedHash": 4139916815,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 4232410959,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "The Ever-Present": {
+        "itemHash": 3177074192,
+        "originTrait": "Frame of Reference",
+        "nonEnhancedHash": 2597494435,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 943022827,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Outrageous Fortune": {
+        "itemHash": 4146702548,
+        "originTrait": "Problem Solver",
+        "nonEnhancedHash": 3454102905,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 2223800157,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Bitter/Sweet": {
+        "itemHash": 2599338625,
+        "originTrait": "Dark Ether Reaper",
+        "nonEnhancedHash": 2041432007,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Wicked Sister": {
+        "itemHash": 2168486467,
+        "originTrait": "Nadir Focus",
+        "nonEnhancedHash": 2509860981,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1585115329,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Edge Transit (BRAVE)": {
+        "itemHash": 568611923,
+        "originTrait": "Indomitability",
+        "nonEnhancedHash": 2489430594,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Scintillation": {
+        "itemHash": 2591257541,
+        "originTrait": "Veist Stinger",
+        "nonEnhancedHash": 3988215619,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 54024075,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Mistral Lift": {
+        "itemHash": 3483485727,
+        "originTrait": "Veist Stinger",
+        "nonEnhancedHash": 3988215619,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 54024075,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Boomslang-4fr": {
+        "itemHash": 3926153598,
+        "originTrait": "Veist Stinger",
+        "nonEnhancedHash": 3988215619,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 54024075,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Doomed Petitioner": {
+        "itemHash": 1501688142,
+        "originTrait": "Dragon's Vengeance",
+        "nonEnhancedHash": 3978094547,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Cataclysmic": {
+        "itemHash": 999767358,
+        "originTrait": "Souldrinker",
+        "nonEnhancedHash": 3363267119,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 3989173487,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Briar's Contempt": {
+        "itemHash": 1491665733,
+        "originTrait": "Harmonic Resonance",
+        "nonEnhancedHash": 3186078099,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Scintillation (Adept)": {
+        "itemHash": 1492522228,
+        "originTrait": "Veist Stinger",
+        "nonEnhancedHash": 3988215619,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 54024075,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Cataclysmic (Adept)": {
+        "itemHash": 2886339027,
+        "originTrait": "Souldrinker",
+        "nonEnhancedHash": 3363267119,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 3989173487,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Briar's Contempt (Adept)": {
+        "itemHash": 2890082420,
+        "originTrait": "Harmonic Resonance",
+        "nonEnhancedHash": 3186078099,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Pro Memoria": {
+        "itemHash": 3605603507,
+        "originTrait": "Dealer's Choice",
+        "nonEnhancedHash": 1988485648,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Ulterior Observation": {
+        "itemHash": 1079872540,
+        "originTrait": "Exhaustive Research",
+        "nonEnhancedHash": 1906137414,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1278990682,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Corrective Measure": {
+        "itemHash": 471518543,
+        "originTrait": "Timelost Magazine",
+        "nonEnhancedHash": 2589407652,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Commemoration": {
+        "itemHash": 4230965989,
+        "originTrait": "Bray Inheritance",
+        "nonEnhancedHash": 766321425,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1501421141,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Avalanche": {
+        "itemHash": 66875353,
+        "originTrait": "Dawning Surprise",
+        "nonEnhancedHash": 4264904777,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Unwavering Duty": {
+        "itemHash": 906840740,
+        "originTrait": "Roar of Battle",
+        "nonEnhancedHash": 1673863459,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 4236235115,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Speleologist": {
+        "itemHash": 412251536,
+        "originTrait": "Radiolaria Transposer",
+        "nonEnhancedHash": 253121539,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Archon's Thunder": {
+        "itemHash": 1967303408,
+        "originTrait": "Skulking Wolf",
+        "nonEnhancedHash": 3989629871,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1831023215,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Watchful Eye": {
+        "itemHash": 1757177186,
+        "originTrait": "Runneth Over",
+        "nonEnhancedHash": 120721526,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1887054634,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Terminus Horizon (RoTn)": {
+        "itemHash": 3984556130,
+        "originTrait": "Gravity Well",
+        "nonEnhancedHash": 59871045,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Terminus Horizon (RoTn Adept)": {
+        "itemHash": 2210806903,
+        "originTrait": "Gravity Well",
+        "nonEnhancedHash": 59871045,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Hammerhead (BRAVE)": {
+        "itemHash": 1896309757,
+        "originTrait": "Indomitability",
+        "nonEnhancedHash": 2489430594,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Corrective Measure (Timelost)": {
+        "itemHash": 3796510434,
+        "originTrait": "Timelost Magazine",
+        "nonEnhancedHash": 2589407652,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Unwavering Duty (Adept)": {
+        "itemHash": 3444632029,
+        "originTrait": "Roar of Battle",
+        "nonEnhancedHash": 1673863459,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 4236235115,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Watchful Eye (Adept)": {
+        "itemHash": 737409399,
+        "originTrait": "Runneth Over",
+        "nonEnhancedHash": 120721526,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1887054634,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Hezen Vengeance": {
+        "itemHash": 4050645223,
+        "originTrait": "Timelost Magazine",
+        "nonEnhancedHash": 2589407652,
+        "nonEnhancedType": "Common Trait"
+    },
+    "The When and Where": {
+        "itemHash": 1090936013,
+        "originTrait": "Frame of Reference",
+        "nonEnhancedHash": 2597494435,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 943022827,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Haliaetus": {
+        "itemHash": 2155534128,
+        "originTrait": "Bray Legacy",
+        "nonEnhancedHash": 4139916815,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 4232410959,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Cynosure": {
+        "itemHash": 694275488,
+        "originTrait": "Vanguard's Vindication",
+        "nonEnhancedHash": 744217850,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1799391606,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Tomorrow's Answer": {
+        "itemHash": 958384347,
+        "originTrait": "Wild Card",
+        "nonEnhancedHash": 1050127423,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 501821599,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Cold Comfort (RoTn)": {
+        "itemHash": 291447487,
+        "originTrait": "Restoration Ritual",
+        "nonEnhancedHash": 398661035,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Cold Comfort (RoTn Adept)": {
+        "itemHash": 1817605554,
+        "originTrait": "Restoration Ritual",
+        "nonEnhancedHash": 398661035,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Hezen Vengeance (Timelost)": {
+        "itemHash": 1921159786,
+        "originTrait": "Timelost Magazine",
+        "nonEnhancedHash": 2589407652,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Tomorrow's Answer (Adept)": {
+        "itemHash": 1366917989,
+        "originTrait": "Wild Card",
+        "nonEnhancedHash": 1050127423,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 501821599,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Synanceia": {
+        "itemHash": 1823308496,
+        "originTrait": "Tenacity",
+        "nonEnhancedHash": 3911709647,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 483923727,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Bequest": {
+        "itemHash": 3366545721,
+        "originTrait": "Bray Inheritance",
+        "nonEnhancedHash": 766321425,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1501421141,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "The Slammer": {
+        "itemHash": 2889501828,
+        "originTrait": "Stunning Recovery",
+        "nonEnhancedHash": 1281216113,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 3764430901,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Aurora Dawn": {
+        "itemHash": 2111625436,
+        "originTrait": "Vanguard Determination",
+        "nonEnhancedHash": 3846229553,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1621842933,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Summum Bonum": {
+        "itemHash": 3569407878,
+        "originTrait": "Collective Purpose",
+        "nonEnhancedHash": 1878756191,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Abyssal Edge": {
+        "itemHash": 547165496,
+        "originTrait": "Willing Vessel",
+        "nonEnhancedHash": 878237828,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Geodetic HSm": {
+        "itemHash": 3637669759,
+        "originTrait": "Nadir Focus",
+        "nonEnhancedHash": 2509860981,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1585115329,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Ill Omen": {
+        "itemHash": 3794274730,
+        "originTrait": "Radiolaria Transposer",
+        "nonEnhancedHash": 253121539,
+        "nonEnhancedType": "Common Trait"
+    },
+    "The Other Half": {
+        "itemHash": 3257091167,
+        "originTrait": "Hot Swap",
+        "nonEnhancedHash": 1260401931,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Goldtusk": {
+        "itemHash": 3371413057,
+        "originTrait": "Veist Stinger",
+        "nonEnhancedHash": 3988215619,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 54024075,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Zephyr": {
+        "itemHash": 3400256755,
+        "originTrait": "Dawning Surprise",
+        "nonEnhancedHash": 4264904777,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Temptation's Hook": {
+        "itemHash": 35794111,
+        "originTrait": "Paracausal Fluid",
+        "nonEnhancedHash": 1600429811,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Falling Guillotine (BRAVE)": {
+        "itemHash": 1815105249,
+        "originTrait": "Indomitability",
+        "nonEnhancedHash": 2489430594,
+        "nonEnhancedType": "Common Trait"
+    },
+    "The Slammer (Adept)": {
+        "itemHash": 1354727549,
+        "originTrait": "Stunning Recovery",
+        "nonEnhancedHash": 1281216113,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 3764430901,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Summum Bonum (Adept)": {
+        "itemHash": 2001697739,
+        "originTrait": "Collective Purpose",
+        "nonEnhancedHash": 1878756191,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Abyssal Edge (Adept)": {
+        "itemHash": 2712683313,
+        "originTrait": "Willing Vessel",
+        "nonEnhancedHash": 878237828,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Opaque Hourglass": {
+        "itemHash": 1553681400,
+        "originTrait": "Frame of Reference",
+        "nonEnhancedHash": 2597494435,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 943022827,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Submersion": {
+        "itemHash": 3524386983,
+        "originTrait": "Contending Cascade",
+        "nonEnhancedHash": 934928524,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 2691822036,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Mint Retrograde": {
+        "itemHash": 42435996,
+        "originTrait": "Problem Solver",
+        "nonEnhancedHash": 3454102905,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 2223800157,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Returned Memory": {
+        "itemHash": 4049127142,
+        "originTrait": "Tenacity",
+        "nonEnhancedHash": 3911709647,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 483923727,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Lotus-Eater": {
+        "itemHash": 3922217119,
+        "originTrait": "Stunning Recovery",
+        "nonEnhancedHash": 1281216113,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 3764430901,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Tinasha's Mastery": {
+        "itemHash": 480368036,
+        "originTrait": "Skulking Wolf",
+        "nonEnhancedHash": 3989629871,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1831023215,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Aberrant Action": {
+        "itemHash": 2198166292,
+        "originTrait": "Radiolaria Transposer",
+        "nonEnhancedHash": 253121539,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Indebted Kindness": {
+        "itemHash": 3381450498,
+        "originTrait": "Sundering",
+        "nonEnhancedHash": 220689851,
+        "nonEnhancedType": "Common Trait"
+    },
+    "The Call": {
+        "itemHash": 3947966653,
+        "originTrait": "Dealer's Choice",
+        "nonEnhancedHash": 1988485648,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Unfall": {
+        "itemHash": 738446555,
+        "originTrait": "Vanguard Determination",
+        "nonEnhancedHash": 3846229553,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 1621842933,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Lotus-Eater (Adept)": {
+        "itemHash": 2697143634,
+        "originTrait": "Stunning Recovery",
+        "nonEnhancedHash": 1281216113,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 3764430901,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Chronophage": {
+        "itemHash": 1886840007,
+        "originTrait": "Radiolaria Transposer",
+        "nonEnhancedHash": 253121539,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Unsworn": {
+        "itemHash": 1303313141,
+        "originTrait": "Subjugation",
+        "nonEnhancedHash": 1298135794,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Retraced Path": {
+        "itemHash": 548958835,
+        "originTrait": "Hot Swap",
+        "nonEnhancedHash": 1260401931,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Path of Least Resistance": {
+        "itemHash": 2827764482,
+        "originTrait": "Ambush",
+        "nonEnhancedHash": 192157151,
+        "nonEnhancedType": "Common Trait"
+    },
+    "Incisor": {
+        "itemHash": 4248997900,
+        "originTrait": "One Quiet Moment",
+        "nonEnhancedHash": 4091460919,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 4102814423,
+        "enhancedType": "Uncommon Enhanced Trait"
+    },
+    "Incisor (Adept)": {
+        "itemHash": 2421180981,
+        "originTrait": "One Quiet Moment",
+        "nonEnhancedHash": 4091460919,
+        "nonEnhancedType": "Common Trait",
+        "enhancedHash": 4102814423,
+        "enhancedType": "Uncommon Enhanced Trait"
+    }
+}
