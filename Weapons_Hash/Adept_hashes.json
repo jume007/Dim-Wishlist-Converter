@@ -1,0 +1,360 @@
+{
+    "Autos": [
+        {
+            "name": "Adamantite (Adept)",
+            "itemHash": 3485029080,
+            "column1": "Reciprocity, Slice, Demolitionist",
+            "column2": "Attrition Orbs, Tear, Frenzy",
+            "originTrait": "Runneth Over"
+        },
+        {
+            "name": "Abyss Defiant (Adept)",
+            "itemHash": 3782662983,
+            "column1": "Heal Clip, Enlightened Action",
+            "column2": "Incandescent",
+            "originTrait": "Cursed Thrall"
+        },
+        {
+            "name": "The Summoner (Adept)",
+            "itemHash": 3514144928,
+            "column1": "Heal Clip",
+            "column2": "Incandescent, Onslaught",
+            "originTrait": "Wild Card"
+        }
+    ],
+    "Bows": [
+        {
+            "name": "Non-Denouement (Adept)",
+            "itemHash": 1039915310,
+            "column1": "Dragonfly, Archer's Tempo, Shoot to Loot",
+            "column2": "Voltshot, Explosive Head, Chaos Reshaped",
+            "originTrait": "Collective Purpose"
+        },
+        {
+            "name": "Anamnesis (Adept)",
+            "itemHash": 1536325168,
+            "column1": "Repulsor Brace, Dragonfly, Archer's Tempo",
+            "column2": "Destabilizing Rounds, Demoralize, Explosive Head",
+            "originTrait": "Runneth Over"
+        },
+        {
+            "name": "Pre Astyanax IV (Adept)",
+            "itemHash": 496556698,
+            "column1": "Incandescent, Firefly",
+            "column2": "Burning Ambition, Explosive Head, Elemental Honing",
+            "originTrait": "Wild Card"
+        }
+    ],
+    "HCs": [
+        {
+            "name": "Word of Crota (Adept)",
+            "itemHash": 3926103986,
+            "column1": "Repulsor Brace, Dragonfly",
+            "column2": "Destabilizing Rounds",
+            "originTrait": "Cursed Thrall"
+        },
+        {
+            "name": "Exalted Truth (Adept)",
+            "itemHash": 1705843397,
+            "column1": "Destabilizing Rounds",
+            "column2": "Repulsor Brace, One for All, Demoralize",
+            "originTrait": "One Quiet Moment"
+        },
+        {
+            "name": "Zaouli's Bane (Harrowed)",
+            "itemHash": 291092617,
+            "column1": "Explosive Payload",
+            "column2": "Incandescent, One for All",
+            "originTrait": "Runneth Over"
+        },
+        {
+            "name": "Fatebringer (Timelost)",
+            "itemHash": 1216319404,
+            "column1": "Explosive Payload, Kinetic Tremors",
+            "column2": "Firefly, One for All, Frenzy",
+            "originTrait": "Timelost Magazine"
+        }
+    ],
+    "Pulses": [
+        {
+            "name": "Oversoul Edict (Adept)",
+            "itemHash": 578105049,
+            "column1": "Eddy Current, Demolitionist",
+            "column2": "Voltshot",
+            "originTrait": "Cursed Thrall"
+        },
+        {
+            "name": "Nullify (Adept)",
+            "itemHash": 892183998,
+            "column1": "Firefly, Heal Clip, Demolitionist",
+            "column2": "Incandescent, Chaos Reshaped, Attrition Orbs",
+            "originTrait": "Collective Purpose"
+        },
+        {
+            "name": "Cruel Mercy (Adept)",
+            "itemHash": 2347178967,
+            "column1": "Dragonfly, Eddy Current, Demolitionist",
+            "column2": "Rolling Storm, Frenzy",
+            "originTrait": "Stunning Recovery"
+        }
+    ],
+    "Scouts": [
+        {
+            "name": "Aisha's Embrace (Adept)",
+            "itemHash": 3245493570,
+            "column1": "Demoralize, Rapid Hit, Shoot to Loot",
+            "column2": "Destabilizing Rounds, Desperate Measures, Withering Gaze",
+            "originTrait": "Roar of Battle"
+        },
+        {
+            "name": "Hung Jury SR4 (Adept)",
+            "itemHash": 681067419,
+            "column1": "Kinetic Tremors, Shoot to Loot, Enlightened Action",
+            "column2": "Firefly, Explosive Payload, One for All",
+            "originTrait": "Indomitability"
+        },
+        {
+            "name": "Vision of Confluence (Timelost)",
+            "itemHash": 690668916,
+            "column1": "Incandescent, Heal Clip, Rewind Rounds",
+            "column2": "Firefly, Explosive Payload, Frenzy",
+            "originTrait": "Timelost Magazine"
+        },
+        {
+            "name": "Doom of Chelchis (Harrowed)",
+            "itemHash": 1184692845,
+            "column1": "Firefly, Explosive Payload",
+            "column2": "Frenzy, One for All, Dragonfly",
+            "originTrait": "Runneth Over"
+        }
+    ],
+    "Sidearms": [
+        {
+            "name": "Forgiveness (Adept)",
+            "itemHash": 2405619467,
+            "column1": "Voltshot",
+            "column2": "Desperate Measures, Kill Clip, Surrounded",
+            "originTrait": "Roar of Battle"
+        },
+        {
+            "name": "Division (Adept)",
+            "itemHash": 3734001727,
+            "column1": "Eddy Current, Pugilist, Grave Robber",
+            "column2": "Voltshot, Surrounded",
+            "originTrait": "Runneth Over"
+        }
+    ],
+    "SMGs": [
+        {
+            "name": "Imminence (Adept)",
+            "itemHash": 3951511045,
+            "column1": "Demolitionist, Slice, Enlightened Action",
+            "column2": "Firefly, Chaos Reshaped, Hatchling",
+            "originTrait": "Collective Purpose"
+        },
+        {
+            "name": "Shayura's Wrath (Adept)",
+            "itemHash": 4023807721,
+            "column1": "Repulsor Brace, Discord",
+            "column2": "Destabilizing Rounds",
+            "originTrait": "One Quiet Moment"
+        }
+    ],
+    "BGLs": [
+        {
+            "name": "Psychopomp (Adept)",
+            "itemHash": 2553380021,
+            "column1": "Envious Arsenal, Ambitious Assassin, Pugilist",
+            "column2": "Elemental Honing, Frenzy, Demolitionist, ",
+            "originTrait": "Runneth Over"
+        },
+        {
+            "name": "Forbearance (Adept)",
+            "itemHash": 4038592169,
+            "column1": "Ambitious Assassin, Unrelenting",
+            "column2": "Chain Reaction, Wellspring",
+            "originTrait": "Souldrinker"
+        }
+    ],
+    "Fusions": [
+        {
+            "name": "Afterlight (Adept)",
+            "itemHash": 3953163559,
+            "column1": "Discord, Lead from Gold, Grave Robber",
+            "column2": "Reservoir Burst, Destabilizing Rounds, Vorpal Weapon",
+            "originTrait": "Willing Vessel"
+        }
+    ],
+    "Glaives": [
+        {
+            "name": "Rake Angle (Adept)",
+            "itemHash": 3997086838,
+            "column1": "Overflow, Impulse Amplifier, Lead from Gold",
+            "column2": "Chill Clip, Close to Melee",
+            "originTrait": "Stunning Recovery"
+        },
+        {
+            "name": "Forthcoming Deviance (Adept)",
+            "itemHash": 3123651616,
+            "column1": "Impulse Amplifier, Grave Robber, Demolitionist",
+            "column2": "Close to Melee, Chaos Reshaped, Destabilizing Rounds",
+            "originTrait": "Collective Purpose"
+        },
+        {
+            "name": "Refusal of the Call (Adept)",
+            "itemHash": 25228802,
+            "column1": "Impulse Amplifier, Slice, Discord",
+            "column2": "Close to Melee, Melee Momentum",
+            "originTrait": "Runneth Over"
+        },
+        {
+            "name": "Unexpected Resurgence (Adept)",
+            "itemHash": 1141586039,
+            "column1": "Auto-Loading Holster, Impulse Amplifier, Replenishing Aegis",
+            "column2": "Frenzy, Close to Melee, Voltshot",
+            "originTrait": "Alacrity"
+        },
+        {
+            "name": "Greasy Luck (Adept)",
+            "itemHash": 3210739171,
+            "column1": "Lead from Gold, Impulse Amplifier, Replenishing Aegis",
+            "column2": "Incandescent, Redirection, Close to Melee",
+            "originTrait": "Restoration Ritual"
+        }
+    ],
+    "Shotguns": [
+        {
+            "name": "Found Verdict (Timelost)",
+            "itemHash": 631439337,
+            "column1": "Rewind Rounds, Discord",
+            "column2": "Trench Barrel, Elemental Honing, Voltshot",
+            "originTrait": "Timelost Magazine"
+        }
+    ],
+    "Snipers": [
+        {
+            "name": "Praedyth's Revenge (Timelost)",
+            "itemHash": 1987769101,
+            "column1": "Fourth Time's the Charm, Kinetic Tremors, Discord",
+            "column2": "Bait and Switch, Elemental Honing, Firefly",
+            "originTrait": "Timelost Magazine"
+        },
+        {
+            "name": "Critical Anomaly (Adept)",
+            "itemHash": 172461430,
+            "column1": "Chill Clip, Rewind Rounds",
+            "column2": "Chaos Reshaped",
+            "originTrait": "Collective Purpose"
+        },
+        {
+            "name": "Keen Thistle (Adept)",
+            "itemHash": 3503560035,
+            "column1": "Envious Arsenal, Incandescent, Triple Tap",
+            "column2": "Bait and Switch, Discord, Fourth Time's the Charm",
+            "originTrait": "Hakke Breach Armaments"
+        }
+    ],
+    "LFRs": [
+        {
+            "name": "Scintillation (Adept)",
+            "itemHash": 1492522228,
+            "column1": "Rewind Rounds, Cornered",
+            "column2": "Bait and Switch, Surrounded",
+            "originTrait": "Veist Stinger"
+        },
+        {
+            "name": "Cataclysmic (Adept)",
+            "itemHash": 2886339027,
+            "column1": "Fourth Time's the Charm",
+            "column2": "Bait and Switch",
+            "originTrait": "Souldrinker"
+        },
+        {
+            "name": "Briar's Contempt (Adept)",
+            "itemHash": 2890082420,
+            "column1": "Rewind Rounds",
+            "column2": "Surrounded, Focused Fury",
+            "originTrait": "Harmonic Resonance"
+        }
+    ],
+    "LMGs": [
+        {
+            "name": "Corrective Measure (Timelost)",
+            "itemHash": 3796510434,
+            "column1": "Destabilizing Rounds, Firefly, Demolitionist",
+            "column2": "One for All, Demoralize, Killing Tally",
+            "originTrait": "Timelost Magazine"
+        },
+        {
+            "name": "Unwavering Duty (Adept)",
+            "itemHash": 3444632029,
+            "column1": "Incandescent, Fourth Time's the Charm, Auto-Loading Holster",
+            "column2": "Killing Tally, Target Lock, Burning Ambition",
+            "originTrait": "Roar of Battle"
+        },
+        {
+            "name": "Watchful Eye (Adept)",
+            "itemHash": 737409399,
+            "column1": "Overflow, Field Prep",
+            "column2": "Jolting Feedback, Killing Tally, Rolling Storm",
+            "originTrait": "Runneth Over"
+        }
+    ],
+    "Rockets": [
+        {
+            "name": "Hezen Vengeance (Timelost)",
+            "itemHash": 1921159786,
+            "column1": "Envious Arsenal, Cluster Bomb, Overflow",
+            "column2": "Bait and Switch, Elemental Honing, Bipod",
+            "originTrait": "Timelost Magazine"
+        },
+        {
+            "name": "Tomorrow's Answer (Adept)",
+            "itemHash": 1366917989,
+            "column1": "Envious Arsenal, Air Trigger, Withering Gaze",
+            "column2": "Bait and Switch, Explosive Light, Bipod",
+            "originTrait": "Wild Card"
+        }
+    ],
+    "Swords": [
+        {
+            "name": "The Slammer (Adept)",
+            "itemHash": 1354727549,
+            "column1": "Eager Edge",
+            "column2": "Cold Steel, Demolitionist",
+            "originTrait": "Stunning Recovery"
+        },
+        {
+            "name": "Summum Bonum (Adept)",
+            "itemHash": 2001697739,
+            "column1": "Relentless Strikes, Attrition Orbs, Deconstruct",
+            "column2": "Chaos Reshaped, Whirlwind Blade, Surrounded",
+            "originTrait": "Collective Purpose"
+        },
+        {
+            "name": "Abyssal Edge (Adept)",
+            "itemHash": 2712683313,
+            "column1": "Relentless Strikes, Flash Counter",
+            "column2": "Elemental Honing, Surrounded, Redirection",
+            "originTrait": "Willing Vessel"
+        }
+    ],
+    "Rocket Sidearms": [
+        {
+            "name": "Lotus-Eater (Adept)",
+            "itemHash": 2697143634,
+            "column1": "Repulsor Brace, Reconstruction, Shoot to Loot",
+            "column2": "Destabilizing Rounds, Withering Gaze, High Ground",
+            "originTrait": "Stunning Recovery"
+        }
+    ],
+    "Traces": [
+        {
+            "name": "Incisor (Adept)",
+            "itemHash": 2421180981,
+            "column1": "Slice",
+            "column2": "Attrition Orbs, Hatchling",
+            "originTrait": "One Quiet Moment"
+        }
+    ]
+}
