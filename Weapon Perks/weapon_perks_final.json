@@ -1,0 +1,1682 @@
+{
+    "WeaponPerks": {
+        "Autos": [
+            {
+                "name": "No Hesitation",
+                "itemHash": "1801007332",
+                "column1": "Physic (4063561849), Demolitionist (1906147653)",
+                "column2": "Incandescent (2675184851), Attrition Orbs (984655331), Circle of Life (674546187)",
+                "originTrait": "Dealer's Choice (1988485648)"
+            },
+            {
+                "name": "Cusp Sempiternal",
+                "itemHash": "2579693381",
+                "column1": "Reciprocity (4070834277), Repulsor Brace (2541826827), Attrition Orbs (984655331)",
+                "column2": "Destabilizing Rounds (1926441324), Master of Arms (2963273944), Withering Gaze (2904194311)",
+                "originTrait": "Frame of Reference"
+            },
+            {
+                "name": "Adamantite",
+                "itemHash": "3229982889",
+                "column1": "Reciprocity (4070834277), Slice (3422796781), Demolitionist (1906147653)",
+                "column2": "Attrition Orbs (984655331), Tear (3244229373), Frenzy (3007133316)",
+                "originTrait": "Runneth Over"
+            },
+            {
+                "name": "Reckless Oracle",
+                "itemHash": "3385326721",
+                "column1": "Destabilizing Rounds (1926441324), Demolitionist (1906147653)",
+                "column2": "Repulsor Brace (2541826827), One for All (859780267)",
+                "originTrait": "Photoinhibition (511914882)"
+            },
+            {
+                "name": "Abyss Defiant",
+                "itemHash": "833898322",
+                "column1": "Heal Clip (4223976499), Enlightened Action (1771736209)",
+                "column2": "Incandescent (2675184851)",
+                "originTrait": "Cursed Thrall (1156201379)"
+            },
+            {
+                "name": "The Summoner",
+                "itemHash": "1907698332",
+                "column1": "Heal Clip (4223976499)",
+                "column2": "Incandescent (2675184851), Onslaught (956288240)",
+                "originTrait": "Wild Card (1050127423)"
+            },
+            {
+                "name": "The Riposte",
+                "itemHash": "3754408118",
+                "column1": "Repulsor Brace (2541826827), Enlightened Action (1771736209)",
+                "column2": "Destabilizing Rounds (1926441324)",
+                "originTrait": "None"
+            },
+            {
+                "name": "Everburning Glitz",
+                "itemHash": "2857870254",
+                "column1": "Attrition Orbs (984655331), Bewildering Burst (3914874605)",
+                "column2": "Kinetic Tremors (1549370717), Ancillary Ordinance (2138673996)",
+                "originTrait": "Fleet Footed"
+            },
+            {
+                "name": "VS Pyroelectric Propellant",
+                "itemHash": "4232480042",
+                "column1": "Attrition Orbs (984655331), Eddy Current (2785334058)",
+                "column2": "Jolting Feedback (717070634)",
+                "originTrait": "Bray Legacy (4139916815)"
+            },
+            {
+                "name": "Adamantite (Adept)",
+                "itemHash": "3485029080",
+                "column1": "Reciprocity (4070834277), Slice (3422796781), Demolitionist (1906147653)",
+                "column2": "Attrition Orbs (984655331), Tear (3244229373), Frenzy (3007133316)",
+                "originTrait": "Runneth Over"
+            },
+            {
+                "name": "Abyss Defiant (Adept)",
+                "itemHash": "3782662983",
+                "column1": "Heal Clip (4223976499), Enlightened Action (1771736209)",
+                "column2": "Incandescent (2675184851)",
+                "originTrait": "Cursed Thrall (1156201379)"
+            },
+            {
+                "name": "The Summoner (Adept)",
+                "itemHash": "3514144928",
+                "column1": "Heal Clip (4223976499)",
+                "column2": "Incandescent (2675184851), Onslaught (956288240)",
+                "originTrait": "Wild Card (1050127423)"
+            }
+        ],
+        "Bows": [
+            {
+                "name": "Non-Denouement",
+                "itemHash": "1770490683",
+                "column1": "Dragonfly (169755979), Archer's Tempo (3523746922), Shoot to Loot (2840833776)",
+                "column2": "Voltshot (1720528630), Explosive Head (1551736345), Chaos Reshaped (1817983009)",
+                "originTrait": "Collective Purpose (1878756191)"
+            },
+            {
+                "name": "Accrued Redemption",
+                "itemHash": "4095896073",
+                "column1": "Archer's Tempo (3523746922)",
+                "column2": "Kinetic Tremors (1549370717), Firefly (1183436451)",
+                "originTrait": "Photoinhibition (511914882)"
+            },
+            {
+                "name": "Fortunate Star",
+                "itemHash": "2326578623",
+                "column1": "Dragonfly (169755979), Repulsor Brace (2541826827), Impromptu Ammunition (4096144819)",
+                "column2": "Destabilizing Rounds (1926441324), Demoralize (2813913866), Explosive Head (1551736345)",
+                "originTrait": "Veist Stinger (3988215619)"
+            },
+            {
+                "name": "Anamnesis",
+                "itemHash": "2291392465",
+                "column1": "Repulsor Brace (2541826827), Dragonfly (169755979), Archer's Tempo (3523746922)",
+                "column2": "Destabilizing Rounds (1926441324), Demoralize (2813913866), Explosive Head (1551736345)",
+                "originTrait": "Runneth Over"
+            },
+            {
+                "name": "Pre Astyanax IV",
+                "itemHash": "192784503",
+                "column1": "Incandescent (2675184851), Firefly (1183436451)",
+                "column2": "Burning Ambition (3581929919), Explosive Head (1551736345), Elemental Honing (496047945)",
+                "originTrait": "Wild Card (1050127423)"
+            },
+            {
+                "name": "Tyranny of Heaven",
+                "itemHash": "2721249463",
+                "column1": "Dragonfly (2848615171), Explosive Head (3365897133), Archer's Tempo (201365942)",
+                "column2": "Incandescent, One for All",
+                "originTrait": "Explosive Pact"
+            },
+            {
+                "name": "Mercury-A",
+                "itemHash": "2838279629",
+                "column1": "Attrition Orbs (984655331), Successful Warm-Up (617966211)",
+                "column2": "Kinetic Tremors (1549370717)",
+                "originTrait": "Tenacity"
+            },
+            {
+                "name": "Non-Denouement (Adept)",
+                "itemHash": "1039915310",
+                "column1": "Dragonfly (169755979), Archer's Tempo (3523746922), Shoot to Loot (2840833776)",
+                "column2": "Voltshot (1720528630), Explosive Head (1551736345), Chaos Reshaped (1817983009)",
+                "originTrait": "Collective Purpose (1878756191)"
+            },
+            {
+                "name": "Anamnesis (Adept)",
+                "itemHash": "1536325168",
+                "column1": "Repulsor Brace (2541826827), Dragonfly (169755979), Archer's Tempo (3523746922)",
+                "column2": "Destabilizing Rounds (1926441324), Demoralize (2813913866), Explosive Head (1551736345)",
+                "originTrait": "Runneth Over"
+            },
+            {
+                "name": "Pre Astyanax IV (Adept)",
+                "itemHash": "496556698",
+                "column1": "Incandescent (2675184851), Firefly (1183436451)",
+                "column2": "Burning Ambition (3581929919), Explosive Head (1551736345), Elemental Honing (496047945)",
+                "originTrait": "Wild Card (1050127423)"
+            }
+        ],
+        "HCs": [
+            {
+                "name": "Word of Crota",
+                "itemHash": "120706239",
+                "column1": "Repulsor Brace (2541826827), Dragonfly (169755979)",
+                "column2": "Destabilizing Rounds (1926441324)",
+                "originTrait": "Cursed Thrall (1156201379)"
+            },
+            {
+                "name": "Posterity",
+                "itemHash": "3281285075",
+                "column1": "Voltshot (1720528630)",
+                "column2": "Frenzy (3007133316), Redirection (1545231802)",
+                "originTrait": "Bray Inheritance (766321425)"
+            },
+            {
+                "name": "Aureus Neutralizer",
+                "itemHash": "3981920134",
+                "column1": "Vorpal Weapon (3418165135), Grave Robber (402033656)",
+                "column2": "Cascade Point (331667533), One-Two Punch (788178929), Trench Barrel (2459015849)",
+                "originTrait": "Hakke Breach Armaments"
+            },
+            {
+                "name": "Sightline Survey",
+                "itemHash": "2350330520",
+                "column1": "Enlightened Action (1771736209)",
+                "column2": "Voltshot (1720528630)",
+                "originTrait": "Radiolaria Transposer (253121539)"
+            },
+            {
+                "name": "Agape",
+                "itemHash": "4124362340",
+                "column1": "Heal Clip (4223976499), Rewind Rounds (1563455254)",
+                "column2": "Incandescent (2675184851), Firefly (1183436451), Precision Instrument (332733060)",
+                "originTrait": "Exhaustive Research"
+            },
+            {
+                "name": "Exalted Truth",
+                "itemHash": "548809020",
+                "column1": "Destabilizing Rounds (1926441324)",
+                "column2": "Repulsor Brace (2541826827), One for All (859780267), Demoralize (2813913866)",
+                "originTrait": "One Quiet Moment (4091460919)"
+            },
+            {
+                "name": "Unloved",
+                "itemHash": "2485881870",
+                "column1": "Rapid Hit (2938480696), Dragonfly (169755979)",
+                "column2": "Elemental Honing (496047945), Frenzy (3007133316)",
+                "originTrait": "Subjugation (1298135794)"
+            },
+            {
+                "name": "Solemn Remembrance",
+                "itemHash": "4116518582",
+                "column1": "Headstone (1171887445)",
+                "column2": "Firefly (1183436451), Rimestealer (2617553311)",
+                "originTrait": "None"
+            },
+            {
+                "name": "Ancient Gospel",
+                "itemHash": "48643186",
+                "column1": "Destabilizing Rounds (1926441324)",
+                "column2": "Explosive Payload (64866129)",
+                "originTrait": "Photoinhibition (511914882)"
+            },
+            {
+                "name": "Zaouli's Bane",
+                "itemHash": "431721920",
+                "column1": "Explosive Payload (64866129)",
+                "column2": "Incandescent (2675184851), One for All (859780267)",
+                "originTrait": "Runneth Over (120721526)"
+            },
+            {
+                "name": "Midnight Coup",
+                "itemHash": "1128225405",
+                "column1": "Firefly (1183436451), Shoot to Loot (2840833776), Explosive Payload (64866129)",
+                "column2": "Kinetic Tremors (1549370717), Frenzy (3007133316), One for All (859780267)",
+                "originTrait": "Indomitability (2489430594)"
+            },
+            {
+                "name": "Fatebringer",
+                "itemHash": "2171478765",
+                "column1": "Explosive Payload (64866129), Kinetic Tremors (1549370717)",
+                "column2": "Firefly (1183436451), One for All (859780267), Frenzy (3007133316)",
+                "originTrait": "Timelost Magazine (2589407652)"
+            },
+            {
+                "name": "Maahes HC4",
+                "itemHash": "1246793994",
+                "column1": "Repulsor Brace (2541826827), Enlightened Action (1771736209)",
+                "column2": "Destabilizing Rounds (1926441324), Dragonfly (169755979)",
+                "originTrait": "Omolon Fluid Dynamics (2839173408)"
+            },
+            {
+                "name": "Word of Crota (Adept)",
+                "itemHash": "3926103986",
+                "column1": "Repulsor Brace (2541826827), Dragonfly (169755979)",
+                "column2": "Destabilizing Rounds (1926441324)",
+                "originTrait": "Cursed Thrall (1156201379)"
+            },
+            {
+                "name": "Exalted Truth (Adept)",
+                "itemHash": "1705843397",
+                "column1": "Destabilizing Rounds (1926441324)",
+                "column2": "Repulsor Brace (2541826827), One for All (859780267), Demoralize (2813913866)",
+                "originTrait": "One Quiet Moment (4091460919)"
+            },
+            {
+                "name": "Zaouli's Bane (Harrowed)",
+                "itemHash": "291092617",
+                "column1": "Explosive Payload (64866129)",
+                "column2": "Incandescent (2675184851), One for All (859780267)",
+                "originTrait": "Runneth Over (120721526)"
+            },
+            {
+                "name": "Fatebringer (Timelost)",
+                "itemHash": "1216319404",
+                "column1": "Explosive Payload (64866129), Kinetic Tremors (1549370717)",
+                "column2": "Firefly (1183436451), One for All (859780267), Frenzy (3007133316)",
+                "originTrait": "Timelost Magazine (2589407652)"
+            }
+        ],
+        "Pulses": [
+            {
+                "name": "Gridskipper",
+                "itemHash": "1621558458",
+                "column1": "Repulsor Brace (2541826827), Demolitionist (1906147653)",
+                "column2": "Destabilizing Rounds (1926441324)",
+                "originTrait": "Splicer Surge (3404929162)"
+            },
+            {
+                "name": "Joxer's Longsword",
+                "itemHash": "157601190",
+                "column1": "Repulsor Brace (2541826827), Dragonfly (169755979), Demolitionist (1906147653)",
+                "column2": "Destabilizing Rounds (1926441324), Demoralize (2813913866)",
+                "originTrait": "One Quiet Moment (4091460919)"
+            },
+            {
+                "name": "Claws of the Wolf",
+                "itemHash": "1280933460",
+                "column1": "Repulsor Brace (2541826827)",
+                "column2": "Destabilizing Rounds (1926441324), Attrition Orbs (984655331)",
+                "originTrait": "Skulking Wolf (3989629871)"
+            },
+            {
+                "name": "Vantage Point",
+                "itemHash": "3830941962",
+                "column1": "Eddy Current (2785334058)",
+                "column2": "Jolting Feedback (717070634)",
+                "originTrait": "Dark Ether Reaper (2041432007)"
+            },
+            {
+                "name": "Oversoul Edict",
+                "itemHash": "1098171824",
+                "column1": "Eddy Current (2785334058), Demolitionist (1906147653)",
+                "column2": "Voltshot (1720528630)",
+                "originTrait": "Cursed Thrall (1156201379)"
+            },
+            {
+                "name": "Nullify",
+                "itemHash": "859869931",
+                "column1": "Firefly (1183436451), Heal Clip (4223976499), Demolitionist (1906147653)",
+                "column2": "Incandescent (2675184851), Chaos Reshaped (1817983009), Attrition Orbs (984655331)",
+                "originTrait": "Collective Purpose (1878756191)"
+            },
+            {
+                "name": "Corrasion",
+                "itemHash": "2126178511",
+                "column1": "Eddy Current (2785334058), Enlightened Action (1771736209)",
+                "column2": "Voltshot (1720528630)",
+                "originTrait": "Radiolaria Transposer (253121539)"
+            },
+            {
+                "name": "Elsie's Rifle",
+                "itemHash": "2372514509",
+                "column1": "Repulsor Brace (2541826827), Rewind Rounds (1563455254), Loose Change (561986700)",
+                "column2": "Destabilizing Rounds (1926441324), Frenzy (3007133316)",
+                "originTrait": "Indomitability (2489430594)"
+            },
+            {
+                "name": "Jurassic Green",
+                "itemHash": "2261046232",
+                "column1": "Heal Clip (4223976499), Loose Change (561986700)",
+                "column2": "Incandescent (2675184851)",
+                "originTrait": "Field-Tested (2120661319)"
+            },
+            {
+                "name": "Adhortative",
+                "itemHash": "1167153950",
+                "column1": "Heal Clip (4223976499), Attrition Orbs (984655331), Shoot to Loot (2840833776)",
+                "column2": "Incandescent (2675184851)",
+                "originTrait": "Nano-Munitions (19542588)"
+            },
+            {
+                "name": "Darkest Before",
+                "itemHash": "2481758391",
+                "column1": "Heal Clip (4223976499), Attrition Orbs (984655331)",
+                "column2": "Incandescent (2675184851)",
+                "originTrait": "Crossing Over (4129855581)"
+            },
+            {
+                "name": "Cruel Mercy",
+                "itemHash": "233635202",
+                "column1": "Dragonfly (169755979), Eddy Current (2785334058), Demolitionist (1906147653)",
+                "column2": "Rolling Storm (2633604463), Frenzy (3007133316)",
+                "originTrait": "Stunning Recovery (1281216113)"
+            },
+            {
+                "name": "Blast Furnace",
+                "itemHash": "3843477312",
+                "column1": "Kinetic Tremors (1549370717), Shoot to Loot (2840833776)",
+                "column2": "Firefly (1183436451), One for All (859780267), Frenzy (3007133316)",
+                "originTrait": "Indomitability (2489430594)"
+            },
+            {
+                "name": "Stars in Shadow",
+                "itemHash": "2050789284",
+                "column1": "Heal Clip (4223976499), Rapid Hit (2938480696), Impromptu Ammunition (4096144819)",
+                "column2": "Incandescent (2675184851), Burning Ambition (3581929919)",
+                "originTrait": "Wild Card"
+            },
+            {
+                "name": "Oversoul Edict (Adept)",
+                "itemHash": "578105049",
+                "column1": "Eddy Current (2785334058), Demolitionist (1906147653)",
+                "column2": "Voltshot (1720528630)",
+                "originTrait": "Cursed Thrall (1156201379)"
+            },
+            {
+                "name": "Nullify (Adept)",
+                "itemHash": "892183998",
+                "column1": "Firefly (1183436451), Heal Clip (4223976499), Demolitionist (1906147653)",
+                "column2": "Incandescent (2675184851), Chaos Reshaped (1817983009), Attrition Orbs (984655331)",
+                "originTrait": "Collective Purpose (1878756191)"
+            },
+            {
+                "name": "Cruel Mercy (Adept)",
+                "itemHash": "2347178967",
+                "column1": "Dragonfly (169755979), Eddy Current (2785334058), Demolitionist (1906147653)",
+                "column2": "Rolling Storm (2633604463), Frenzy (3007133316)",
+                "originTrait": "Stunning Recovery (1281216113)"
+            }
+        ],
+        "Scouts": [
+            {
+                "name": "Unworthy",
+                "itemHash": "2226158470",
+                "column1": "Firefly (1183436451)",
+                "column2": "Voltshot (1720528630), Frenzy (3007133316), Paracausal Affinity (3299896859)",
+                "originTrait": "Subjugation (1298135794)"
+            },
+            {
+                "name": "Aisha's Embrace",
+                "itemHash": "2638190703",
+                "column1": "Demoralize (2813913866), Rapid Hit (2938480696), Shoot to Loot (2840833776)",
+                "column2": "Destabilizing Rounds (1926441324), Desperate Measures (2799030358), Withering Gaze (2904194311)",
+                "originTrait": "Roar of Battle"
+            },
+            {
+                "name": "Trustee",
+                "itemHash": "1392919471",
+                "column1": "Rapid Hit (2938480696), Reconstruction (461595545)",
+                "column2": "Incandescent (2675184851)",
+                "originTrait": "Bray Inheritance (766321425)"
+            },
+            {
+                "name": "Vouchsafe",
+                "itemHash": "3242168339",
+                "column1": "Repulsor Brace (776531651), Rapid Hit (247725512)",
+                "column2": "Destabilizing Rounds (2048641572), Dragonfly (2848615171), Explosive Payload (3038247973)",
+                "originTrait": "Advanced Reflexes (930692523)"
+            },
+            {
+                "name": "Forced Memorializer",
+                "itemHash": "1197073834",
+                "column1": "Bewildering Burst (3914874605), Explosive Payload (64866129), Rapid Hit (2938480696)",
+                "column2": "Ancillary Ordinance (2138673996), Kinetic Tremors (1549370717)",
+                "originTrait": "Problem Solver"
+            },
+            {
+                "name": "Hung Jury SR4",
+                "itemHash": "4281371574",
+                "column1": "Kinetic Tremors (1549370717), Shoot to Loot (2840833776), Enlightened Action (1771736209)",
+                "column2": "Firefly (1183436451), Explosive Payload (64866129), One for All (859780267)",
+                "originTrait": "Indomitability (2489430594)"
+            },
+            {
+                "name": "Vision of Confluence",
+                "itemHash": "3186018373",
+                "column1": "Incandescent (2675184851), Heal Clip (4223976499), Rewind Rounds (1563455254)",
+                "column2": "Firefly (1183436451), Explosive Payload (64866129), Frenzy (3007133316)",
+                "originTrait": "Timelost Magazine (2589407652)"
+            },
+            {
+                "name": "Randy's Throwing Knife",
+                "itemHash": "3535742959",
+                "column1": "Rapid Hit (2938480696), Discord (906981559)",
+                "column2": "Kinetic Tremors (1549370717)",
+                "originTrait": "One Quiet Moment (4091460919)"
+            },
+            {
+                "name": "Patron of Lost Causes",
+                "itemHash": "2723241847",
+                "column1": "Rapid Hit (2938480696), Strategist (3120212825)",
+                "column2": "Kinetic Tremors (1549370717), Explosive Payload (64866129)",
+                "originTrait": "Cast No Shadows (2838996248)"
+            },
+            {
+                "name": "Nature Reclaimed",
+                "itemHash": "2639921391",
+                "column1": "Heal Clip (4223976499), Rapid Hit (2938480696), Shoot to Loot (2840833776)",
+                "column2": "Incandescent (2675184851), Explosive Payload (64866129)",
+                "originTrait": "Skulking Wolf (3989629871)"
+            },
+            {
+                "name": "Tarnished Mettle",
+                "itemHash": "2218569744",
+                "column1": "Rapid Hit (2938480696), Shoot to Loot (2840833776), Demolitionist (1906147653)",
+                "column2": "Voltshot (1720528630), Explosive Payload (64866129)",
+                "originTrait": "Right Hook (3907865655)"
+            },
+            {
+                "name": "Doom of Chelchis",
+                "itemHash": "1937552980",
+                "column1": "Firefly (1183436451), Explosive Payload (64866129)",
+                "column2": "Frenzy (3007133316), One for All (859780267), Dragonfly (169755979)",
+                "originTrait": "Runneth Over (120721526)"
+            },
+            {
+                "name": "Aisha's Embrace (Adept)",
+                "itemHash": "3245493570",
+                "column1": "Demoralize (2813913866), Rapid Hit (2938480696), Shoot to Loot (2840833776)",
+                "column2": "Destabilizing Rounds (1926441324), Desperate Measures (2799030358), Withering Gaze (2904194311)",
+                "originTrait": "Roar of Battle"
+            },
+            {
+                "name": "Hung Jury SR4 (Adept)",
+                "itemHash": "681067419",
+                "column1": "Kinetic Tremors (1549370717), Shoot to Loot (2840833776), Enlightened Action (1771736209)",
+                "column2": "Firefly (1183436451), Explosive Payload (64866129), One for All (859780267)",
+                "originTrait": "Indomitability (2489430594)"
+            },
+            {
+                "name": "Vision of Confluence (Timelost)",
+                "itemHash": "690668916",
+                "column1": "Incandescent (2675184851), Heal Clip (4223976499), Rewind Rounds (1563455254)",
+                "column2": "Firefly (1183436451), Explosive Payload (64866129), Frenzy (3007133316)",
+                "originTrait": "Timelost Magazine (2589407652)"
+            },
+            {
+                "name": "Doom of Chelchis (Harrowed)",
+                "itemHash": "1184692845",
+                "column1": "Firefly (1183436451), Explosive Payload (64866129)",
+                "column2": "Frenzy (3007133316), One for All (859780267), Dragonfly (169755979)",
+                "originTrait": "Runneth Over (120721526)"
+            }
+        ],
+        "Sidearms": [
+            {
+                "name": "Insurmountable",
+                "itemHash": "414045521",
+                "column1": "Repulsor Brace (2541826827), Attrition Orbs (984655331), Demolitionist (1906147653)",
+                "column2": "Destabilizing Rounds (1926441324), Surrounded (781192741)",
+                "originTrait": "Dark Ether Reaper (2041432007)"
+            },
+            {
+                "name": "Drang",
+                "itemHash": "2362471600",
+                "column1": "Heal Clip (4223976499), Loose Change (561986700), Collective Pugilism (3684445958)",
+                "column2": "Incandescent (2675184851), Burning Ambition (3581929919), Master of Arms (2963273944)",
+                "originTrait": "Vanguard Determination"
+            },
+            {
+                "name": "Heliocentric QSc",
+                "itemHash": "3998080529",
+                "column1": "Heal Clip (4223976499), Demolitionist (1906147653)",
+                "column2": "Incandescent (2675184851), Frenzy (3007133316), Surrounded (781192741)",
+                "originTrait": "Nadir Focus (2509860981)"
+            },
+            {
+                "name": "Forgiveness",
+                "itemHash": "2345794502",
+                "column1": "Voltshot (1720528630)",
+                "column2": "Desperate Measures (2799030358), Kill Clip (2923251173), Surrounded (781192741)",
+                "originTrait": "Roar of Battle"
+            },
+            {
+                "name": "Division",
+                "itemHash": "2903168058",
+                "column1": "Eddy Current (2785334058), Pugilist (536173722), Grave Robber (402033656)",
+                "column2": "Voltshot (1720528630), Surrounded (781192741)",
+                "originTrait": "Runneth Over"
+            },
+            {
+                "name": "Anonymous Autumn",
+                "itemHash": "3222518097",
+                "column1": "Eddy Current (2785334058), Attrition Orbs (984655331), Demolitionist (1906147653)",
+                "column2": "Voltshot (1720528630)",
+                "originTrait": "Field-Tested (2120661319)"
+            },
+            {
+                "name": "Brigand's Law",
+                "itemHash": "1298815317",
+                "column1": "Threat Detector (494941759), Feeding Frenzy (1171147302), Pugilist (536173722)",
+                "column2": "Voltshot (1720528630), Swashbuckler (1161469972)",
+                "originTrait": "Right Hook (3907865655)"
+            },
+            {
+                "name": "Drang (Baroque)",
+                "itemHash": "502356570",
+                "column1": "Wellspring, Disruption Break (2216471363)",
+                "column2": "Incandescent (2675184851), Swashbuckler",
+                "originTrait": "To Excess"
+            },
+            {
+                "name": "Forgiveness (Adept)",
+                "itemHash": "2405619467",
+                "column1": "Voltshot (1720528630)",
+                "column2": "Desperate Measures (2799030358), Kill Clip (2923251173), Surrounded (781192741)",
+                "originTrait": "Roar of Battle"
+            },
+            {
+                "name": "Division (Adept)",
+                "itemHash": "3734001727",
+                "column1": "Eddy Current (2785334058), Pugilist (536173722), Grave Robber (402033656)",
+                "column2": "Voltshot (1720528630), Surrounded (781192741)",
+                "originTrait": "Runneth Over"
+            }
+        ],
+        "SMGs": [
+            {
+                "name": "Multimach CCX",
+                "itemHash": "3717177717",
+                "column1": "Attrition Orbs (984655331)",
+                "column2": "Kinetic Tremors (1549370717), Frenzy (3007133316)",
+                "originTrait": "Field-Tested (2120661319)"
+            },
+            {
+                "name": "Yeartide Apex",
+                "itemHash": "3293207827",
+                "column1": "Heal Clip (4223976499), Attrition Orbs (984655331), Demolitionist (1906147653)",
+                "column2": "Incandescent (2675184851), Chaos Reshaped (1817983009), Burning Ambition (3581929919)",
+                "originTrait": "Tex Balanced Stock"
+            },
+            {
+                "name": "The Recluse",
+                "itemHash": "3354242550",
+                "column1": "Repulsor Brace (2541826827), Enlightened Action (1771736209)",
+                "column2": "Destabilizing Rounds (1926441324), Surrounded (781192741)",
+                "originTrait": "Indomitability (2489430594)"
+            },
+            {
+                "name": "MIDA Mini-Tool",
+                "itemHash": "3089417788",
+                "column1": "Heal Clip (4223976499), Attrition Orbs (984655331), Loose Change (561986700)",
+                "column2": "Incandescent (2675184851), Burning Ambition (3581929919), Collective Pugilism (3684445958)",
+                "originTrait": "Vanguard Determination"
+            },
+            {
+                "name": "Antedate",
+                "itemHash": "1435808083",
+                "column1": "Dragonfly (169755979), Rewind Rounds (1563455254), Rolling Storm (2633604463)",
+                "column2": "Jolting Feedback (717070634), Target Lock (2939589096), Desperate Measures (2799030358)",
+                "originTrait": "Frame of Reference"
+            },
+            {
+                "name": "The Title",
+                "itemHash": "294129361",
+                "column1": "Repulsor Brace (2541826827), Threat Detector (494941759)",
+                "column2": "Destabilizing Rounds (1926441324), Surrounded (781192741)",
+                "originTrait": "Hakke Breach Armaments (1607056502)"
+            },
+            {
+                "name": "Gunburn",
+                "itemHash": "3431536253",
+                "column1": "Bewildering Burst (3914874605), Lead from Light, Pugilist (536173722)",
+                "column2": "Kinetic Tremors (1549370717), Ancillary Ordinance (2138673996), Attrition Orbs (984655331)",
+                "originTrait": "Veist Stinger"
+            },
+            {
+                "name": "Imminence",
+                "itemHash": "1258168956",
+                "column1": "Demolitionist (1906147653), Slice (3422796781), Enlightened Action (1771736209)",
+                "column2": "Firefly (1183436451), Chaos Reshaped (1817983009), Hatchling (102912326)",
+                "originTrait": "Collective Purpose (1878756191)"
+            },
+            {
+                "name": "Shayura's Wrath",
+                "itemHash": "3682803680",
+                "column1": "Repulsor Brace (2541826827), Discord (906981559)",
+                "column2": "Destabilizing Rounds (1926441324)",
+                "originTrait": "One Quiet Moment (4091460919)"
+            },
+            {
+                "name": "Noxious Vetiver",
+                "itemHash": "825495813",
+                "column1": "Attrition Orbs (984655331), Loose Change (561986700), Pugilist (536173722)",
+                "column2": "Jolting Feedback (717070634)",
+                "originTrait": "Dark Ether Reaper (2041432007)"
+            },
+            {
+                "name": "No Survivors (RoTn)",
+                "itemHash": "4228149269",
+                "column1": "Heal Clip, Attrition Orbs, Demolitionist",
+                "column2": "Incandescent",
+                "originTrait": "Gravity Well"
+            },
+            {
+                "name": "No Survivors (RoTn Adept)",
+                "itemHash": "189194532",
+                "column1": "Heal Clip, Attrition Orbs, Demolitionist",
+                "column2": "Incandescent",
+                "originTrait": "Gravity Well"
+            },
+            {
+                "name": "Imminence (Adept)",
+                "itemHash": "3951511045",
+                "column1": "Demolitionist (1906147653), Slice (3422796781), Enlightened Action (1771736209)",
+                "column2": "Firefly (1183436451), Chaos Reshaped (1817983009), Hatchling (102912326)",
+                "originTrait": "Collective Purpose (1878756191)"
+            },
+            {
+                "name": "Shayura's Wrath (Adept)",
+                "itemHash": "4023807721",
+                "column1": "Repulsor Brace (2541826827), Discord (906981559)",
+                "column2": "Destabilizing Rounds (1926441324)",
+                "originTrait": "One Quiet Moment (4091460919)"
+            }
+        ],
+        "BGLs": [
+            {
+                "name": "VS Velocity Baton",
+                "itemHash": "1762785663",
+                "column1": "Repulsor Brace (2541826827), Demolitionist (1906147653)",
+                "column2": "Destabilizing Rounds (1926441324), Attrition Orbs (984655331)",
+                "originTrait": "Bray Legacy (4139916815)"
+            },
+            {
+                "name": "Festival Flight",
+                "itemHash": "4019651319",
+                "column1": "Envious Arsenal (2817499044), Blast Distributor (3696140595), Slice (3422796781)",
+                "column2": "Elemental Honing (496047945), One for All (859780267), Attrition Orbs (984655331)",
+                "originTrait": "Dream Work"
+            },
+            {
+                "name": "Lost Signal",
+                "itemHash": "1197771438",
+                "column1": "Auto-Loading Holster (3528046508), Lead from Gold (3442762221)",
+                "column2": "Vorpal Weapon (3418165135), Demolitionist (1906147653), One for All (859780267)",
+                "originTrait": "Radiolaria Transposer (253121539)"
+            },
+            {
+                "name": "Psychopomp",
+                "itemHash": "4028298892",
+                "column1": "Envious Arsenal (2817499044), Ambitious Assassin (3797647183), Pugilist (536173722)",
+                "column2": "Elemental Honing (496047945), Frenzy (3007133316), Demolitionist (1906147653), ",
+                "originTrait": "Runneth Over"
+            },
+            {
+                "name": "Theodolite",
+                "itemHash": "4146673635",
+                "column1": "Reconstruction (461595545), Blast Distributor (3696140595), Eddy Current (2785334058)",
+                "column2": "Elemental Honing (496047945), Voltshot (1720528630), Frenzy (3007133316)",
+                "originTrait": "Problem Solver"
+            },
+            {
+                "name": "Liturgy",
+                "itemHash": "2599338624",
+                "column1": "Envious Arsenal (2817499044), Slideways (2396422520)",
+                "column2": "Chill Clip (344235611), Lead from Gold (3442762221), Chain Reaction (598607952)",
+                "originTrait": "Dark Ether Reaper (2041432007)"
+            },
+            {
+                "name": "Romantic Death",
+                "itemHash": "4169082039",
+                "column1": "Repulsor Brace (2541826827), Proximity Power (820036316)",
+                "column2": "Destabilizing Rounds (1926441324), Chain Reaction (598607952), Surrounded (781192741)",
+                "originTrait": "Tenacity"
+            },
+            {
+                "name": "Martyr's Retribution",
+                "itemHash": "3850168899",
+                "column1": "Heal Clip (4223976499), Demolitionist (1906147653), Field Prep (2308090567)",
+                "column2": "Incandescent (2675184851), Kill Clip (2923251173), Desperate Measures (2799030358)",
+                "originTrait": "Cast No Shadows (2838996248)"
+            },
+            {
+                "name": "Forbearance",
+                "itemHash": "613334176",
+                "column1": "Ambitious Assassin (3797647183), Unrelenting (855168139)",
+                "column2": "Chain Reaction (598607952), Wellspring (2675361166)",
+                "originTrait": "Souldrinker (3363267119)"
+            },
+            {
+                "name": "Tusk of the Boar",
+                "itemHash": "1218113510",
+                "column1": "Slice (3422796781), Slideways (2396422520)",
+                "column2": "Chain Reaction (598607952), Deconstruct (1164602481)",
+                "originTrait": "Field-Tested (2120661319)"
+            },
+            {
+                "name": "The Mountaintop (BRAVE)",
+                "itemHash": "568611922",
+                "column1": "Auto-Loading Holster, Impulse Amplifier, Overflow",
+                "column2": "Recombination, Vorpal Weapon, Frenzy",
+                "originTrait": "Indomitability"
+            },
+            {
+                "name": "Wilderflight (RoTn)",
+                "itemHash": "1206729100",
+                "column1": "Envious Arsenal, Auto-Loading Holster, Demolitionist",
+                "column2": "Bait and Switch, Lead from Gold, Frenzy",
+                "originTrait": "Gravity Well"
+            },
+            {
+                "name": "Wilderflight (RoTn Adept)",
+                "itemHash": "559523765",
+                "column1": "Envious Arsenal, Auto-Loading Holster, Demolitionist",
+                "column2": "Bait and Switch, Lead from Gold, Frenzy",
+                "originTrait": "Gravity Well"
+            },
+            {
+                "name": "New Pacific Epitaph (RoTn)",
+                "itemHash": "2059741649",
+                "column1": "Demolitionist, Envious Arsenal, Lead from Gold",
+                "column2": "Redirection, Chain Reaction",
+                "originTrait": "Gravity Well"
+            },
+            {
+                "name": "New Pacific Epitaph (RoTn Adept)",
+                "itemHash": "233402416",
+                "column1": "Demolitionist, Envious Arsenal, Lead from Gold",
+                "column2": "Redirection, Chain Reaction",
+                "originTrait": "Gravity Well"
+            },
+            {
+                "name": "Forbearance (BRAVE)",
+                "itemHash": "568611921",
+                "column1": "Ambitious Assassin (3797647183), Demolitionist (1906147653), Unrelenting (855168139)",
+                "column2": "Chain Reaction (598607952), Desperate Measures (2799030358), Wellspring (2675361166)",
+                "originTrait": "Indomitability (2489430594)"
+            },
+            {
+                "name": "Psychopomp (Adept)",
+                "itemHash": "2553380021",
+                "column1": "Envious Arsenal (2817499044), Ambitious Assassin (3797647183), Pugilist (536173722)",
+                "column2": "Elemental Honing (496047945), Frenzy (3007133316), Demolitionist (1906147653), ",
+                "originTrait": "Runneth Over"
+            },
+            {
+                "name": "Forbearance (Adept)",
+                "itemHash": "4038592169",
+                "column1": "Ambitious Assassin (3797647183), Unrelenting (855168139)",
+                "column2": "Chain Reaction (598607952), Wellspring (2675361166)",
+                "originTrait": "Souldrinker (3363267119)"
+            }
+        ],
+        "Fusions": [
+            {
+                "name": "Lionfish-4fr",
+                "itemHash": "2423071981",
+                "column1": "Reconstruction (461595545), Lead from Gold (3442762221)",
+                "column2": "Chill Clip (344235611), Controlled Burst (2037312142), Elemental Honing (496047945)",
+                "originTrait": "Problem Solver"
+            },
+            {
+                "name": "Scatter Signal",
+                "itemHash": "2558925366",
+                "column1": "Overflow (2682205016), Slice (3422796781)",
+                "column2": "Controlled Burst (2037312142)",
+                "originTrait": "Dragon's Vengeance (3978094547)"
+            },
+            {
+                "name": "Finite Maybe",
+                "itemHash": "3241217409",
+                "column1": "Reconstruction (461595545), Incandescent (2675184851), Demolitionist (1906147653)",
+                "column2": "Bait and Switch (3744057135), Controlled Burst (2037312142), Discord (906981559)",
+                "originTrait": "Frame of Reference"
+            },
+            {
+                "name": "Riptide",
+                "itemHash": "2715240478",
+                "column1": "Auto-Loading Holster (3528046508), Lead from Gold (3442762221), Field Prep (2308090567)",
+                "column2": "Chill Clip (344235611), Frenzy (3007133316), Demolitionist (1906147653)",
+                "originTrait": "One Quiet Moment (4091460919)"
+            },
+            {
+                "name": "Zealot's Reward",
+                "itemHash": "2209003210",
+                "column1": "Auto-Loading Holster (3528046508), Lead from Gold (3442762221), Destabilizing Rounds (1926441324)",
+                "column2": "Controlled Burst (2037312142), Reservoir Burst (254337357)",
+                "originTrait": "Photoinhibition (511914882)"
+            },
+            {
+                "name": "Techeun Force",
+                "itemHash": "4094657108",
+                "column1": "Rewind Rounds",
+                "column2": "Controlled Burst",
+                "originTrait": "Explosive Pact"
+            },
+            {
+                "name": "Cartesian Coordinate",
+                "itemHash": "2481881293",
+                "column1": "Lead from Gold (1556840489)",
+                "column2": "Vorpal Weapon (1546637391)",
+                "originTrait": "None"
+            },
+            {
+                "name": "Glacioclasm",
+                "itemHash": "1030895163",
+                "column1": "Envious Assassin, Slideshot (191144788), Air Trigger",
+                "column2": "Controlled Burst (2037312142), Reservoir Burst (254337357), Withering Gaze",
+                "originTrait": "Dawning Surprise (4264904777)"
+            },
+            {
+                "name": "Afterlight",
+                "itemHash": "3228630258",
+                "column1": "Discord (906981559), Lead from Gold (3442762221), Grave Robber (402033656)",
+                "column2": "Reservoir Burst (254337357), Destabilizing Rounds (1926441324), Vorpal Weapon (3418165135)",
+                "originTrait": "Willing Vessel (878237828)"
+            },
+            {
+                "name": "Afterlight (Adept)",
+                "itemHash": "3953163559",
+                "column1": "Discord (906981559), Lead from Gold (3442762221), Grave Robber (402033656)",
+                "column2": "Reservoir Burst (254337357), Destabilizing Rounds (1926441324), Vorpal Weapon (3418165135)",
+                "originTrait": "Willing Vessel (878237828)"
+            }
+        ],
+        "Glaives": [
+            {
+                "name": "Rake Angle",
+                "itemHash": "2298039571",
+                "column1": "Overflow (2682205016), Impulse Amplifier (3878366039), Lead from Gold (3442762221)",
+                "column2": "Chill Clip (344235611), Close to Melee (2241043034)",
+                "originTrait": "Stunning Recovery (1281216113)"
+            },
+            {
+                "name": "Forthcoming Deviance",
+                "itemHash": "535198113",
+                "column1": "Impulse Amplifier (3878366039), Grave Robber (402033656), Demolitionist (1906147653)",
+                "column2": "Close to Melee (2241043034), Chaos Reshaped (1817983009), Destabilizing Rounds (1926441324)",
+                "originTrait": "Collective Purpose (1878756191)"
+            },
+            {
+                "name": "Nezarec's Whisper",
+                "itemHash": "254636484",
+                "column1": "Demolitionist (1906147653), Impulse Amplifier (3878366039), Lead from Gold (3442762221)",
+                "column2": "Frenzy (3007133316)",
+                "originTrait": "Extrovert (1250481499)"
+            },
+            {
+                "name": "Refusal of the Call",
+                "itemHash": "3269398063",
+                "column1": "Impulse Amplifier (3878366039), Slice (3422796781), Discord (906981559)",
+                "column2": "Close to Melee (2241043034), Melee Momentum (2817677128)",
+                "originTrait": "Runneth Over"
+            },
+            {
+                "name": "Unexpected Resurgence",
+                "itemHash": "4005780578",
+                "column1": "Auto-Loading Holster (3300816228), Impulse Amplifier (951095735), Replenishing Aegis (1966281507)",
+                "column2": "Frenzy (4104185692), Close to Melee (1782407750), Voltshot (2173046394)",
+                "originTrait": "Alacrity (2988596335)"
+            },
+            {
+                "name": "The Enigma",
+                "itemHash": "2595497736",
+                "column1": "Impulse Amplifier (3878366039)",
+                "column2": "Frenzy (3007133316)",
+                "originTrait": "Psychohack (357495645)"
+            },
+            {
+                "name": "Backfang",
+                "itemHash": "267672635",
+                "column1": "Impulse Amplifier (3878366039), Grave Robber (402033656), Lead from Gold (3442762221)",
+                "column2": "Surrounded (781192741), Close to Melee (2241043034), Voltshot (1720528630)",
+                "originTrait": "Gun and Run (515704826)"
+            },
+            {
+                "name": "Greasy Luck",
+                "itemHash": "1757202961",
+                "column1": "Lead from Gold (3442762221), Impulse Amplifier (951095735), Replenishing Aegis (1592669035)",
+                "column2": "Incandescent (2675184851), Redirection (1545231802), Close to Melee (2241043034)",
+                "originTrait": "Restoration Ritual (398661035)"
+            },
+            {
+                "name": "Greasy Luck (RoTn)",
+                "itemHash": "2934305134",
+                "column1": "Reconstruction (461595545), Lead from Gold (3442762221), Heal Clip (4223976499)",
+                "column2": "Incandescent (2675184851), Redirection (1545231802), Close to Melee (2241043034)",
+                "originTrait": "Restoration Ritual (398661035)"
+            },
+            {
+                "name": "Greasy Luck (RoTn Adept)",
+                "itemHash": "3210739171",
+                "column1": "Reconstruction (461595545), Lead from Gold (3442762221), Heal Clip (4223976499)",
+                "column2": "Incandescent (2675184851), Redirection (1545231802), Close to Melee (2241043034)",
+                "originTrait": "Restoration Ritual (398661035)"
+            },
+            {
+                "name": "Rake Angle (Adept)",
+                "itemHash": "3997086838",
+                "column1": "Overflow (2682205016), Impulse Amplifier (3878366039), Lead from Gold (3442762221)",
+                "column2": "Chill Clip (344235611), Close to Melee (2241043034)",
+                "originTrait": "Stunning Recovery (1281216113)"
+            },
+            {
+                "name": "Forthcoming Deviance (Adept)",
+                "itemHash": "3123651616",
+                "column1": "Impulse Amplifier (3878366039), Grave Robber (402033656), Demolitionist (1906147653)",
+                "column2": "Close to Melee (2241043034), Chaos Reshaped (1817983009), Destabilizing Rounds (1926441324)",
+                "originTrait": "Collective Purpose (1878756191)"
+            },
+            {
+                "name": "Refusal of the Call (Adept)",
+                "itemHash": "25228802",
+                "column1": "Impulse Amplifier (3878366039), Slice (3422796781), Discord (906981559)",
+                "column2": "Close to Melee (2241043034), Melee Momentum (2817677128)",
+                "originTrait": "Runneth Over"
+            },
+            {
+                "name": "Unexpected Resurgence (Adept)",
+                "itemHash": "1141586039",
+                "column1": "Auto-Loading Holster (3300816228), Impulse Amplifier (951095735), Replenishing Aegis (1966281507)",
+                "column2": "Frenzy (4104185692), Close to Melee (1782407750), Voltshot (2173046394)",
+                "originTrait": "Alacrity (2988596335)"
+            },
+            {
+                "name": "Greasy Luck (Adept)",
+                "itemHash": "3210739171",
+                "column1": "Lead from Gold (3442762221), Impulse Amplifier (951095735), Replenishing Aegis (1592669035)",
+                "column2": "Incandescent (2675184851), Redirection (1545231802), Close to Melee (2241043034)",
+                "originTrait": "Restoration Ritual (398661035)"
+            }
+        ],
+        "Shotguns": [
+            {
+                "name": "Perfect Paradox",
+                "itemHash": "2248667690",
+                "column1": "Pugilist (536173722), Field Prep (2308090567), Threat Detector (494941759)",
+                "column2": "One-Two Punch (788178929), Trench Barrel (2459015849), Vorpal Weapon (3418165135)",
+                "originTrait": "Cast No Shadows (2838996248)"
+            },
+            {
+                "name": "Unvoiced",
+                "itemHash": "3360937899",
+                "column1": "Redirection (1545231802), Fourth Time's the Charm (848860060), Envious Arsenal (2817499044)",
+                "column2": "Elemental Honing (496047945), Bait and Switch (3744057135), Vorpal Weapon (3418165135)",
+                "originTrait": "Subjugation (1298135794)"
+            },
+            {
+                "name": "IKELOS_SG_v1.0.3",
+                "itemHash": "1168625549",
+                "column1": "Grave Robber (402033656), Threat Detector (494941759), Pugilist (536173722)",
+                "column2": "One-Two Punch (788178929), Surrounded (781192741), Cascade Point (331667533)",
+                "originTrait": "Rasputin's Arsenal (566815328)"
+            },
+            {
+                "name": "Until Its Return",
+                "itemHash": "2883484461",
+                "column1": "Auto-Loading Holster (3528046508), Overflow (2682205016)",
+                "column2": "Cascade Point (331667533), Surrounded (781192741), Vorpal Weapon (3418165135)",
+                "originTrait": "Unsated Hunger (2053642371)"
+            },
+            {
+                "name": "Imperial Decree",
+                "itemHash": "318443586",
+                "column1": "Auto-Loading Holster (3528046508)",
+                "column2": "Trench Barrel (2459015849), Surrounded (781192741)",
+                "originTrait": "To Excess (1905044254)"
+            },
+            {
+                "name": "Pure Recollection",
+                "itemHash": "1956186483",
+                "column1": "Envious Arsenal (2817499044), High-Impact Reserves (2002547233)",
+                "column2": "Bait and Switch (3744057135), Withering Gaze (2904194311)",
+                "originTrait": "Roar of Battle"
+            },
+            {
+                "name": "Heritage",
+                "itemHash": "4248569242",
+                "column1": "Reconstruction (461595545), Demolitionist (1906147653)",
+                "column2": "Recombination (3335686050)",
+                "originTrait": "Bray Inheritance (766321425)"
+            },
+            {
+                "name": "Found Verdict",
+                "itemHash": "3197270240",
+                "column1": "Rewind Rounds (1563455254), Discord (906981559)",
+                "column2": "Trench Barrel (2459015849), Elemental Honing (496047945), Voltshot (1720528630)",
+                "originTrait": "Timelost Magazine (2589407652)"
+            },
+            {
+                "name": "A Sudden Death (RoTn)",
+                "itemHash": "1976481399",
+                "column1": "Discord, One-Two Punch",
+                "column2": "Trench Barrel, Redirection",
+                "originTrait": "Gravity Well"
+            },
+            {
+                "name": "A Sudden Death (RoTn Adept)",
+                "itemHash": "1626437786",
+                "column1": "Discord, One-Two Punch",
+                "column2": "Trench Barrel, Redirection",
+                "originTrait": "Gravity Well"
+            },
+            {
+                "name": "Found Verdict (Timelost)",
+                "itemHash": "631439337",
+                "column1": "Rewind Rounds (1563455254), Discord (906981559)",
+                "column2": "Trench Barrel (2459015849), Elemental Honing (496047945), Voltshot (1720528630)",
+                "originTrait": "Timelost Magazine (2589407652)"
+            }
+        ],
+        "Snipers": [
+            {
+                "name": "Praedyth's Revenge",
+                "itemHash": "3653573172",
+                "column1": "Fourth Time's the Charm (848860060), Kinetic Tremors (1549370717), Discord (906981559)",
+                "column2": "Bait and Switch (3744057135), Elemental Honing (496047945), Firefly (1183436451)",
+                "originTrait": "Timelost Magazine (2589407652)"
+            },
+            {
+                "name": "Lance Ephemeral",
+                "itemHash": "688593230",
+                "column1": "Fourth Time's the Charm (848860060), Envious Arsenal (2817499044), Lead from Gold (3442762221)",
+                "column2": "Bait and Switch (3744057135), Elemental Honing (496047945), Redirection (1545231802)",
+                "originTrait": "Frame of Reference"
+            },
+            {
+                "name": "The Supremacy",
+                "itemHash": "686951703",
+                "column1": "Rewind Rounds, Lead from Gold, Discord",
+                "column2": "Kinetic Tremors, Bait and Switch, Fourth Time's the Charm",
+                "originTrait": "Explosive Pact"
+            },
+            {
+                "name": "Omniscient Eye",
+                "itemHash": "3454326177",
+                "column1": "Fourth Time's the Charm (848860060), Envious Arsenal (2817499044)",
+                "column2": "Precision Instrument (332733060), Vorpal Weapon (3418165135)",
+                "originTrait": "Photoinhibition (511914882)"
+            },
+            {
+                "name": "Critical Anomaly",
+                "itemHash": "445197843",
+                "column1": "Chill Clip (344235611), Rewind Rounds (1563455254)",
+                "column2": "Chaos Reshaped (1817983009)",
+                "originTrait": "Collective Purpose (1878756191)"
+            },
+            {
+                "name": "Keen Thistle",
+                "itemHash": "1893967086",
+                "column1": "Envious Arsenal (2817499044), Incandescent (2675184851), Triple Tap (573122728)",
+                "column2": "Bait and Switch (3744057135), Discord (906981559), Fourth Time's the Charm (848860060)",
+                "originTrait": "Hakke Breach Armaments (1607056502)"
+            },
+            {
+                "name": "IKELOS_SR_v1.0.3",
+                "itemHash": "2302346155",
+                "column1": "Fourth Time's the Charm (848860060)",
+                "column2": "Focused Fury (2402480669)",
+                "originTrait": "Rasputin's Arsenal (566815328)"
+            },
+            {
+                "name": "Succession",
+                "itemHash": "2990047042",
+                "column1": "Reconstruction (461595545), Demolitionist (1906147653)",
+                "column2": "Recombination (3335686050), Vorpal Weapon (3418165135), Osmosis (777774560)",
+                "originTrait": "Bray Inheritance (766321425)"
+            },
+            {
+                "name": "Succession (BRAVE)",
+                "itemHash": "3612338554",
+                "column1": "Reconstruction (461595545), Demolitionist (1906147653), Discord (906981559)",
+                "column2": "Recombination (3335686050), Vorpal Weapon (3418165135), Redirection (1545231802)",
+                "originTrait": "Indomitability (2489430594)"
+            },
+            {
+                "name": "Praedyth's Revenge (Timelost)",
+                "itemHash": "1987769101",
+                "column1": "Fourth Time's the Charm (848860060), Kinetic Tremors (1549370717), Discord (906981559)",
+                "column2": "Bait and Switch (3744057135), Elemental Honing (496047945), Firefly (1183436451)",
+                "originTrait": "Timelost Magazine (2589407652)"
+            },
+            {
+                "name": "Critical Anomaly (Adept)",
+                "itemHash": "172461430",
+                "column1": "Chill Clip (344235611), Rewind Rounds (1563455254)",
+                "column2": "Chaos Reshaped (1817983009)",
+                "originTrait": "Collective Purpose (1878756191)"
+            },
+            {
+                "name": "Keen Thistle (Adept)",
+                "itemHash": "3503560035",
+                "column1": "Envious Arsenal (2817499044), Incandescent (2675184851), Triple Tap (573122728)",
+                "column2": "Bait and Switch (3744057135), Discord (906981559), Fourth Time's the Charm (848860060)",
+                "originTrait": "Hakke Breach Armaments (1607056502)"
+            }
+        ],
+        "HGLs": [
+            {
+                "name": "VS Chill Inhibitor",
+                "itemHash": "1762785662",
+                "column1": "Envious Arsenal (2817499044), Cascade Point (331667533), Attrition Orbs (984655331)",
+                "column2": "Bait and Switch (3744057135), Explosive Light (2275087323), Surrounded (781192741)",
+                "originTrait": "Bray Legacy (4139916815)"
+            },
+            {
+                "name": "The Ever-Present",
+                "itemHash": "3177074192",
+                "column1": "Envious Arsenal (2817499044)",
+                "column2": "Aggregate Charge (3192447905), Bait and Switch (3744057135), Elemental Honing (496047945)",
+                "originTrait": "Frame of Reference"
+            },
+            {
+                "name": "Outrageous Fortune",
+                "itemHash": "4146702548",
+                "column1": "Envious Arsenal (2817499044), Incandescent (2675184851)",
+                "column2": "Bait and Switch (3744057135), Explosive Light (2275087323), Chain Reaction (598607952)",
+                "originTrait": "Problem Solver"
+            },
+            {
+                "name": "Bitter/Sweet",
+                "itemHash": "2599338625",
+                "column1": "Envious Arsenal (2817499044)",
+                "column2": "Bait and Switch (3744057135), Cascade Point (331667533), Explosive Light (2275087323)",
+                "originTrait": "Dark Ether Reaper (2041432007)"
+            },
+            {
+                "name": "Wicked Sister",
+                "itemHash": "2168486467",
+                "column1": "Envious Arsenal (2817499044)",
+                "column2": "Bait and Switch (3744057135), Cascade Point (331667533), Explosive Light (2275087323)",
+                "originTrait": "Nadir Focus (2509860981)"
+            },
+            {
+                "name": "Edge Transit (BRAVE)",
+                "itemHash": "568611923",
+                "column1": "Envious Assassin, Cascade Point, Chain Reaction",
+                "column2": "Bait and Switch, Explosive Light, Deconstruct",
+                "originTrait": "Indomitability"
+            }
+        ],
+        "LFRs": [
+            {
+                "name": "Scintillation",
+                "itemHash": "2591257541",
+                "column1": "Rewind Rounds (1563455254), Cornered (1008128453)",
+                "column2": "Bait and Switch (3744057135), Surrounded (781192741)",
+                "originTrait": "Veist Stinger (3988215619)"
+            },
+            {
+                "name": "Mistral Lift",
+                "itemHash": "3483485727",
+                "column1": "Envious Arsenal (2817499044), Envious Assassin (424370782)",
+                "column2": "Bait and Switch (3744057135)",
+                "originTrait": "Veist Stinger (3988215619)"
+            },
+            {
+                "name": "Boomslang-4fr",
+                "itemHash": "3926153598",
+                "column1": "Envious Arsenal (2817499044), Rapid Hit (2938480696)",
+                "column2": "Precision Instrument (332733060), Reservoir Burst (254337357)",
+                "originTrait": "Veist Stinger"
+            },
+            {
+                "name": "Doomed Petitioner",
+                "itemHash": "1501688142",
+                "column1": "Envious Assassin (424370782), Reconstruction (461595545)",
+                "column2": "Surrounded (781192741), Precision Instrument (332733060)",
+                "originTrait": "Dragon's Vengeance (3978094547)"
+            },
+            {
+                "name": "Cataclysmic",
+                "itemHash": "999767358",
+                "column1": "Fourth Time's the Charm (848860060)",
+                "column2": "Bait and Switch (3744057135)",
+                "originTrait": "Souldrinker (3363267119)"
+            },
+            {
+                "name": "Briar's Contempt",
+                "itemHash": "1491665733",
+                "column1": "Rewind Rounds (1563455254)",
+                "column2": "Surrounded (781192741), Focused Fury (2402480669)",
+                "originTrait": "Harmonic Resonance (3186078099)"
+            },
+            {
+                "name": "Scintillation (Adept)",
+                "itemHash": "1492522228",
+                "column1": "Rewind Rounds (1563455254), Cornered (1008128453)",
+                "column2": "Bait and Switch (3744057135), Surrounded (781192741)",
+                "originTrait": "Veist Stinger (3988215619)"
+            },
+            {
+                "name": "Cataclysmic (Adept)",
+                "itemHash": "2886339027",
+                "column1": "Fourth Time's the Charm (848860060)",
+                "column2": "Bait and Switch (3744057135)",
+                "originTrait": "Souldrinker (3363267119)"
+            },
+            {
+                "name": "Briar's Contempt (Adept)",
+                "itemHash": "2890082420",
+                "column1": "Rewind Rounds (1563455254)",
+                "column2": "Surrounded (781192741), Focused Fury (2402480669)",
+                "originTrait": "Harmonic Resonance (3186078099)"
+            }
+        ],
+        "LMGs": [
+            {
+                "name": "Pro Memoria",
+                "itemHash": "3605603507",
+                "column1": "Demolitionist (1906147653), Reconstruction (461595545), Hatchling (102912326)",
+                "column2": "Desperate Measures (2799030358), Bait and Switch (3744057135), Dragonfly (169755979)",
+                "originTrait": "Dealer's Choice (1988485648)"
+            },
+            {
+                "name": "Ulterior Observation",
+                "itemHash": "1079872540",
+                "column1": "Demolitionist (1906147653), Headstone (1171887445), Envious Arsenal (2817499044)",
+                "column2": "Dragonfly (169755979), Rimestealer (2617553311), Killing Tally (2896748467)",
+                "originTrait": "Exhaustive Research"
+            },
+            {
+                "name": "Corrective Measure",
+                "itemHash": "471518543",
+                "column1": "Destabilizing Rounds (1926441324), Firefly (1183436451), Demolitionist (1906147653)",
+                "column2": "One for All (859780267), Demoralize (2813913866), Killing Tally (2896748467)",
+                "originTrait": "Timelost Magazine (2589407652)"
+            },
+            {
+                "name": "Commemoration",
+                "itemHash": "4230965989",
+                "column1": "Reconstruction (461595545), Dragonfly (169755979), Subsistence (4245865861)",
+                "column2": "Killing Tally (2896748467), Repulsor Brace (2541826827)",
+                "originTrait": "Bray Inheritance (766321425)"
+            },
+            {
+                "name": "Avalanche",
+                "itemHash": "66875353",
+                "column1": "Auto-Loading Holster (3528046508), Subsistence (4245865861), Dragonfly (2848615171)",
+                "column2": "Incandescent (2675184851), Cascade Point (331667533), Golden Tricorn",
+                "originTrait": "Dawning Surprise (4264904777)"
+            },
+            {
+                "name": "Unwavering Duty",
+                "itemHash": "906840740",
+                "column1": "Incandescent (2675184851), Fourth Time's the Charm (848860060), Auto-Loading Holster (3528046508)",
+                "column2": "Killing Tally (2896748467), Target Lock (2939589096), Burning Ambition (3581929919)",
+                "originTrait": "Roar of Battle"
+            },
+            {
+                "name": "Speleologist",
+                "itemHash": "412251536",
+                "column1": "Envious Assassin (424370782), Heal Clip (4223976499), Deconstruct (1164602481)",
+                "column2": "Incandescent (2675184851), Killing Tally (2896748467), One For All",
+                "originTrait": "Radiolaria Transposer (253121539)"
+            },
+            {
+                "name": "Archon's Thunder",
+                "itemHash": "1967303408",
+                "column1": "Rimestealer (2617553311), Air Trigger (3291427296), Fourth Time's the Charm (848860060)",
+                "column2": "Headstone (1171887445), Desperate Measures (2799030358), Killing Tally (2896748467)",
+                "originTrait": "Skulking Wolf (3989629871)"
+            },
+            {
+                "name": "Watchful Eye",
+                "itemHash": "1757177186",
+                "column1": "Overflow (2682205016), Field Prep (2308090567)",
+                "column2": "Jolting Feedback (717070634), Killing Tally (2896748467), Rolling Storm (2633604463)",
+                "originTrait": "Runneth Over"
+            },
+            {
+                "name": "Terminus Horizon (RoTn)",
+                "itemHash": "3984556130",
+                "column1": "Demolitionist, Reconstruction, Dragonfly",
+                "column2": "Rolling Storm, Killing Tally, Jolting Feedback",
+                "originTrait": "Gravity Well"
+            },
+            {
+                "name": "Terminus Horizon (RoTn Adept)",
+                "itemHash": "2210806903",
+                "column1": "Demolitionist, Reconstruction, Dragonfly",
+                "column2": "Rolling Storm, Killing Tally, Jolting Feedback",
+                "originTrait": "Gravity Well"
+            },
+            {
+                "name": "Hammerhead (BRAVE)",
+                "itemHash": "1896309757",
+                "column1": "Destabilizing Rounds, Rewind Rounds, Fourth Time's the Charm",
+                "column2": "Killing Tally, Desperate Measures, Onslaught",
+                "originTrait": "Indomitability"
+            },
+            {
+                "name": "Corrective Measure (Timelost)",
+                "itemHash": "3796510434",
+                "column1": "Destabilizing Rounds (1926441324), Firefly (1183436451), Demolitionist (1906147653)",
+                "column2": "One for All (859780267), Demoralize (2813913866), Killing Tally (2896748467)",
+                "originTrait": "Timelost Magazine (2589407652)"
+            },
+            {
+                "name": "Unwavering Duty (Adept)",
+                "itemHash": "3444632029",
+                "column1": "Incandescent (2675184851), Fourth Time's the Charm (848860060), Auto-Loading Holster (3528046508)",
+                "column2": "Killing Tally (2896748467), Target Lock (2939589096), Burning Ambition (3581929919)",
+                "originTrait": "Roar of Battle"
+            },
+            {
+                "name": "Watchful Eye (Adept)",
+                "itemHash": "737409399",
+                "column1": "Overflow (2682205016), Field Prep (2308090567)",
+                "column2": "Jolting Feedback (717070634), Killing Tally (2896748467), Rolling Storm (2633604463)",
+                "originTrait": "Runneth Over"
+            }
+        ],
+        "Rockets": [
+            {
+                "name": "Hezen Vengeance",
+                "itemHash": "4050645223",
+                "column1": "Envious Arsenal (2817499044), Cluster Bomb (2091001077), Overflow (2682205016)",
+                "column2": "Bait and Switch (3744057135), Elemental Honing (496047945), Bipod (2282937672)",
+                "originTrait": "Timelost Magazine (2589407652)"
+            },
+            {
+                "name": "The When and Where",
+                "itemHash": "1090936013",
+                "column1": "Clown Cartridge (3563868667), Reconstruction (461595545), Overflow (2682205016)",
+                "column2": "Bait and Switch (3744057135), Elemental Honing (496047945), Bipod (2282937672)",
+                "originTrait": "Frame of Reference"
+            },
+            {
+                "name": "Haliaetus",
+                "itemHash": "2155534128",
+                "column1": "Auto-Loading Holster (3528046508), Cluster Bomb (2091001077), Grave Robber (402033656)",
+                "column2": "Aggregate Charge (3192447905), Reaper's Tithe (177189259), Elemental Honing (496047945)",
+                "originTrait": "Bray Legacy"
+            },
+            {
+                "name": "Cynosure",
+                "itemHash": "694275488",
+                "column1": "Envious Arsenal (2817499044), Clown Cartridge (3563868667), Field Prep (2308090567)",
+                "column2": "Elemental Honing (496047945), Explosive Light (2275087323), Bipod (2282937672)",
+                "originTrait": "Vanguard's Vindication (744217850)"
+            },
+            {
+                "name": "Tomorrow's Answer",
+                "itemHash": "958384347",
+                "column1": "Envious Arsenal (2817499044), Air Trigger (3291427296), Withering Gaze (2904194311)",
+                "column2": "Bait and Switch (3744057135), Explosive Light (2275087323), Bipod (2282937672)",
+                "originTrait": "Wild Card (1050127423)"
+            },
+            {
+                "name": "Cold Comfort (RoTn)",
+                "itemHash": "291447487",
+                "column1": "Envious Arsenal, Reconstruction",
+                "column2": "Elemental Honing, Bait and Switch, Bipod",
+                "originTrait": "Restoration Ritual"
+            },
+            {
+                "name": "Cold Comfort (RoTn Adept)",
+                "itemHash": "1817605554",
+                "column1": "Envious Arsenal, Reconstruction",
+                "column2": "Elemental Honing, Bait and Switch, Bipod",
+                "originTrait": "Restoration Ritual"
+            },
+            {
+                "name": "Hezen Vengeance (Timelost)",
+                "itemHash": "1921159786",
+                "column1": "Envious Arsenal (2817499044), Cluster Bomb (2091001077), Overflow (2682205016)",
+                "column2": "Bait and Switch (3744057135), Elemental Honing (496047945), Bipod (2282937672)",
+                "originTrait": "Timelost Magazine (2589407652)"
+            },
+            {
+                "name": "Tomorrow's Answer (Adept)",
+                "itemHash": "1366917989",
+                "column1": "Envious Arsenal (2817499044), Air Trigger (3291427296), Withering Gaze (2904194311)",
+                "column2": "Bait and Switch (3744057135), Explosive Light (2275087323), Bipod (2282937672)",
+                "originTrait": "Wild Card (1050127423)"
+            }
+        ],
+        "Swords": [
+            {
+                "name": "Synanceia",
+                "itemHash": "1823308496",
+                "column1": "Relentless Strikes (4085959009), Attrition Orbs (984655331), Sharp Harvest (2581144697)",
+                "column2": "Elemental Honing (496047945), Eager Edge (1618208178), Burning Ambition (3581929919)",
+                "originTrait": "Tenacity"
+            },
+            {
+                "name": "Bequest",
+                "itemHash": "3366545721",
+                "column1": "Relentless Strikes (4085959009)",
+                "column2": "Surrounded (781192741), Vorpal Weapon (3418165135)",
+                "originTrait": "Bray Inheritance (766321425)"
+            },
+            {
+                "name": "The Slammer",
+                "itemHash": "2889501828",
+                "column1": "Eager Edge (1618208178)",
+                "column2": "Cold Steel (405677814), Demolitionist (1906147653)",
+                "originTrait": "Stunning Recovery (1281216113)"
+            },
+            {
+                "name": "Aurora Dawn",
+                "itemHash": "2111625436",
+                "column1": "Sharp Harvest (2581144697), Flash Counter (2860991074), Rimestealer (2617553311)",
+                "column2": "Whirlwind Blade (147913470), Elemental Honing (496047945), Cold Steel (405677814)",
+                "originTrait": "Vanguard Determination"
+            },
+            {
+                "name": "Summum Bonum",
+                "itemHash": "3569407878",
+                "column1": "Relentless Strikes (4085959009), Attrition Orbs (984655331), Deconstruct (1164602481)",
+                "column2": "Chaos Reshaped (1817983009), Whirlwind Blade (147913470), Surrounded (781192741)",
+                "originTrait": "Collective Purpose (1878756191)"
+            },
+            {
+                "name": "Abyssal Edge",
+                "itemHash": "547165496",
+                "column1": "Relentless Strikes (4085959009), Flash Counter (2860991074)",
+                "column2": "Elemental Honing (496047945), Surrounded (781192741), Redirection (1545231802)",
+                "originTrait": "Willing Vessel (878237828)"
+            },
+            {
+                "name": "Geodetic HSm",
+                "itemHash": "3637669759",
+                "column1": "Relentless Strikes (4085959009)",
+                "column2": "Whirlwind Blade (147913470)",
+                "originTrait": "Nadir Focus (2509860981)"
+            },
+            {
+                "name": "Ill Omen",
+                "itemHash": "3794274730",
+                "column1": "Relentless Strikes (4085959009), Attrition Orbs (984655331)",
+                "column2": "Whirlwind Blade (147913470), Surrounded (781192741)",
+                "originTrait": "Radiolaria Transposer (253121539)"
+            },
+            {
+                "name": "The Other Half",
+                "itemHash": "3257091167",
+                "column1": "Eager Edge (1618208178), Relentless Strikes (4085959009)",
+                "column2": "Surrounded (781192741), Frenzy (3007133316), Whirlwind Blade (147913470)",
+                "originTrait": "Hot Swap (1260401931)"
+            },
+            {
+                "name": "Goldtusk",
+                "itemHash": "3371413057",
+                "column1": "Relentless Strikes (4085959009)",
+                "column2": "Whirlwind Blade (147913470)",
+                "originTrait": "Veist Stinger (3988215619)"
+            },
+            {
+                "name": "Zephyr",
+                "itemHash": "3400256755",
+                "column1": "Relentless Strikes (4085959009), Attrition Orbs (984655331), Rimestealer",
+                "column2": "Surrounded (781192741), Whirlwind Blade (147913470), Cold Steel (405677814)",
+                "originTrait": "Dawning Surprise (4264904777)"
+            },
+            {
+                "name": "Temptation's Hook",
+                "itemHash": "35794111",
+                "column1": "Relentless Strikes (4085959009), Attrition Orbs (984655331)",
+                "column2": "Whirlwind Blade (147913470)",
+                "originTrait": "Paracausal Fluid (1600429811)"
+            },
+            {
+                "name": "Falling Guillotine (BRAVE)",
+                "itemHash": "1815105249",
+                "column1": "Chain Reaction, Frenzy",
+                "column2": "Eager Edge, Bait and Switch, Surrounded",
+                "originTrait": "Indomitability"
+            },
+            {
+                "name": "The Slammer (Adept)",
+                "itemHash": "1354727549",
+                "column1": "Eager Edge (1618208178)",
+                "column2": "Cold Steel (405677814), Demolitionist (1906147653)",
+                "originTrait": "Stunning Recovery (1281216113)"
+            },
+            {
+                "name": "Summum Bonum (Adept)",
+                "itemHash": "2001697739",
+                "column1": "Relentless Strikes (4085959009), Attrition Orbs (984655331), Deconstruct (1164602481)",
+                "column2": "Chaos Reshaped (1817983009), Whirlwind Blade (147913470), Surrounded (781192741)",
+                "originTrait": "Collective Purpose (1878756191)"
+            },
+            {
+                "name": "Abyssal Edge (Adept)",
+                "itemHash": "2712683313",
+                "column1": "Relentless Strikes (4085959009), Flash Counter (2860991074)",
+                "column2": "Elemental Honing (496047945), Surrounded (781192741), Redirection (1545231802)",
+                "originTrait": "Willing Vessel (878237828)"
+            }
+        ],
+        "Other": [
+            {
+                "name": "Opaque Hourglass",
+                "itemHash": "1553681400",
+                "column1": "Impulse Amplifier (3878366039), Firefly (1183436451), Bolt Scavenger (883665727)",
+                "column2": "Elemental Honing (496047945), Dragonfly (169755979), Firing Line (395388285)",
+                "originTrait": "Frame of Reference"
+            },
+            {
+                "name": "Submersion",
+                "itemHash": "3524386983",
+                "column1": "Auto-Loading Holster (3528046508), Bolt Scavenger (883665727), Lead from Light",
+                "column2": "Aggregate Charge (3192447905), Headstone (1171887445), Chill Clip (344235611)",
+                "originTrait": "Contending Cascade"
+            },
+            {
+                "name": "Mint Retrograde",
+                "itemHash": "42435996",
+                "column1": "Rewind Rounds (1563455254), Envious Arsenal (2817499044), Hatchling (102912326)",
+                "column2": "Bait and Switch (3744057135), Elemental Honing (496047945), Chain Reaction (598607952)",
+                "originTrait": "Problem Solver"
+            }
+        ],
+        "Rocket Sidearms": [
+            {
+                "name": "Returned Memory",
+                "itemHash": "4049127142",
+                "column1": "Heal Clip (4223976499), Lead from Gold (3442762221), Impromptu Ammunition (4096144819)",
+                "column2": "Incandescent (2675184851), Redirection (1545231802), Desperate Measures (2799030358)",
+                "originTrait": "Tenacity"
+            },
+            {
+                "name": "Lotus-Eater",
+                "itemHash": "3922217119",
+                "column1": "Repulsor Brace (2541826827), Reconstruction (461595545), Shoot to Loot (2840833776)",
+                "column2": "Destabilizing Rounds (1926441324), Withering Gaze (2904194311), High Ground (2140591236)",
+                "originTrait": "Stunning Recovery (1281216113)"
+            },
+            {
+                "name": "Tinasha's Mastery",
+                "itemHash": "480368036",
+                "column1": "Air Trigger (3291427296), Impulse Amplifier (3878366039), Loose Change (561986700)",
+                "column2": "Chill Clip (344235611), Surrounded (781192741), Desperate Measures (2799030358)",
+                "originTrait": "Skulking Wolf (3989629871)"
+            },
+            {
+                "name": "Aberrant Action",
+                "itemHash": "2198166292",
+                "column1": "Heal Clip (4223976499), Field Prep (2308090567)",
+                "column2": "Incandescent (2675184851), Demolitionist (1906147653)",
+                "originTrait": "Radiolaria Transposer (253121539)"
+            },
+            {
+                "name": "Indebted Kindness",
+                "itemHash": "3381450498",
+                "column1": "Impulse Amplifier (951095735), Lead from Gold (1556840489)",
+                "column2": "Voltshot (2173046394), Surrounded (3708227201), Adagio (3673922083)",
+                "originTrait": "Sundering (220689851)"
+            },
+            {
+                "name": "The Call",
+                "itemHash": "3947966653",
+                "column1": "Slice (3422796781), Lead from Gold (3442762221), Demolitionist (1906147653)",
+                "column2": "Desperate Measures (2799030358), Golden Tricorn (2610012052), One for All (859780267)",
+                "originTrait": "Dealer's Choice (1988485648)"
+            },
+            {
+                "name": "Unfall",
+                "itemHash": "738446555",
+                "column1": "Lead from Gold (3442762221), Impulse Amplifier (3878366039), Beacon Rounds (1135494563)",
+                "column2": "Jolting Feedback (717070634), Rolling Storm (2633604463), Deconstruct (1164602481)",
+                "originTrait": "Vanguard Determination"
+            },
+            {
+                "name": "Lotus-Eater (Adept)",
+                "itemHash": "2697143634",
+                "column1": "Repulsor Brace (2541826827), Reconstruction (461595545), Shoot to Loot (2840833776)",
+                "column2": "Destabilizing Rounds (1926441324), Withering Gaze (2904194311), High Ground (2140591236)",
+                "originTrait": "Stunning Recovery (1281216113)"
+            }
+        ],
+        "Traces": [
+            {
+                "name": "Chronophage",
+                "itemHash": "1886840007",
+                "column1": "Shoot to Loot (2840833776), Repulsor Brace (2541826827)",
+                "column2": "Destabilizing Rounds (1926441324), Demolitionist (1906147653), Desperate Measures (2799030358)",
+                "originTrait": "Radiolaria Transposer (253121539)"
+            },
+            {
+                "name": "Unsworn",
+                "itemHash": "1303313141",
+                "column1": "Shoot to Loot (2840833776), Tear (3244229373), Rewind Rounds (1563455254)",
+                "column2": "Detonator Beam (222783511), Elemental Honing (496047945), Hatchling (102912326)",
+                "originTrait": "Subjugation (1298135794)"
+            },
+            {
+                "name": "Retraced Path",
+                "itemHash": "548958835",
+                "column1": "Shoot to Loot (2840833776)",
+                "column2": "Demolitionist (1906147653), Frenzy (3007133316), Incandescent (2675184851)",
+                "originTrait": "Hot Swap (1260401931)"
+            },
+            {
+                "name": "Path of Least Resistance",
+                "itemHash": "2827764482",
+                "column1": "Shoot to Loot (2840833776)",
+                "column2": "Voltshot (1720528630)",
+                "originTrait": "Ambush (192157151)"
+            },
+            {
+                "name": "Incisor",
+                "itemHash": "4248997900",
+                "column1": "Slice (3422796781)",
+                "column2": "Attrition Orbs (984655331), Hatchling (102912326)",
+                "originTrait": "One Quiet Moment (4091460919)"
+            },
+            {
+                "name": "Incisor (Adept)",
+                "itemHash": "2421180981",
+                "column1": "Slice (3422796781)",
+                "column2": "Attrition Orbs (984655331), Hatchling (102912326)",
+                "originTrait": "One Quiet Moment (4091460919)"
+            }
+        ]
+    }
+}
