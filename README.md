@@ -1,1 +1,9 @@
-# jume007.github.io
+Read Me
+
+API KEY Example
+
+API_KEY=''
+CLIENT_ID=''
+CLIENT_SECRET=''
+
+Save as security.py
