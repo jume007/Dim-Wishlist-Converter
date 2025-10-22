@@ -1,5 +1,3 @@
-Read Me
-
 API KEY Example
 
 API_KEY=''
