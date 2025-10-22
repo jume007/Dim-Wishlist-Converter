@@ -1,0 +1,135 @@
+{
+    "Weapons": [
+        {
+            "name": "Pre Astyanax IV (Adept)",
+            "itemHash": "2063217087",
+            "isHolofoil": false,
+            "column1": "Incandescent (2675184851), Firefly",
+            "column2": "Burning Ambition, Explosive Head (1551736345), Elemental Honing",
+            "originTrait": "Wild Card (1050127423)"
+        },
+        {
+            "name": "Tyranny of Heaven",
+            "itemHash": "2721249463",
+            "isHolofoil": false,
+            "column1": "Dragonfly (2848615171), Explosive Head (3365897133), Archer's Tempo (201365942)",
+            "column2": "Incandescent, One for All",
+            "originTrait": "Explosive Pact (1489048135)"
+        },
+        {
+            "name": "Techeun Force",
+            "itemHash": "4094657108",
+            "isHolofoil": false,
+            "column1": "Rewind Rounds",
+            "column2": "Controlled Burst",
+            "originTrait": "Explosive Pact (1489048135)"
+        },
+        {
+            "name": "Glacioclasm",
+            "itemHash": "1030895163,2728851518",
+            "isHolofoil": false,
+            "column1": "Envious Assassin, Slideshot (191144788), Air Trigger",
+            "column2": "Controlled Burst (2594592626), Reservoir Burst (254337357), Withering Gaze",
+            "originTrait": "Dawning Surprise (4264904777)"
+        },
+        {
+            "name": "Greasy Luck (Adept)",
+            "itemHash": "3210739171",
+            "isHolofoil": true,
+            "variants": "1050582210,1050582210",
+            "column1": "Lead from Gold (3442762221), Impulse Amplifier, Replenishing Aegis (1966281507)",
+            "column2": "Incandescent (2675184851), Redirection (1545231802), Close to Melee (1782407750)",
+            "originTrait": "Restoration Ritual (398661035)"
+        },
+        {
+            "name": "Avalanche",
+            "itemHash": "66875353,4220529694",
+            "isHolofoil": false,
+            "column1": "Auto-Loading Holster (3528046508), Subsistence (4245865861), Dragonfly (2848615171)",
+            "column2": "Incandescent (2675184851), Cascade Point (331667533), Golden Tricorn",
+            "originTrait": "Dawning Surprise (4264904777)"
+        },
+        {
+            "name": "Unwavering Duty (Adept)",
+            "itemHash": "3444632029",
+            "isHolofoil": false,
+            "column1": "Incandescent (4293542123), Fourth Time's the Charm, Auto-Loading Holster (3300816228)",
+            "column2": "Killing Tally (557221067), Target Lock, Burning Ambition",
+            "originTrait": "Roar of Battle (1673863459)"
+        },
+        {
+            "name": "Speleologist",
+            "itemHash": "412251536",
+            "isHolofoil": false,
+            "column1": "Envious Assassin (424370782), Heal Clip (4223976499), Deconstruct (3993379141)",
+            "column2": "Incandescent (2675184851), Killing Tally (2896748467), One For All",
+            "originTrait": "Radiolaria Transposer (253121539)"
+        },
+        {
+            "name": "Submersion",
+            "itemHash": "3524386983",
+            "isHolofoil": true,
+            "variants": "1724104236",
+            "column1": "Auto-Loading Holster (3528046508), Bolt Scavenger (883665727), Lead from Light",
+            "column2": "Aggregate Charge (3192447905), Headstone (1171887445), Chill Clip (344235611)",
+            "originTrait": "Contending Cascade (934928524)"
+        },
+        {
+            "name": "Aisha's Embrace (Adept)",
+            "itemHash": "3245493570",
+            "isHolofoil": false,
+            "column1": "Demoralize, Rapid Hit, Shoot to Loot (3700496672)",
+            "column2": "Destabilizing Rounds, Desperate Measures, Withering Gaze",
+            "originTrait": "Roar of Battle (1673863459)"
+        },
+        {
+            "name": "Hung Jury SR4 (Adept)",
+            "itemHash": "2883684343",
+            "isHolofoil": false,
+            "column1": "Kinetic Tremors (3891536761), Shoot to Loot (3700496672), Enlightened Action",
+            "column2": "Firefly (3824105627), Explosive Payload, One for All",
+            "originTrait": "Indomitability (2489430594)"
+        },
+        {
+            "name": "Drang (Baroque)",
+            "itemHash": "79075821,502356570",
+            "isHolofoil": false,
+            "column1": "Heal Clip, Loose Change, Collective Pugilism",
+            "column2": "Incandescent (2675184851), Burning Ambition, Master of Arms",
+            "originTrait": "Vanguard Determination (3846229553)"
+        },
+        {
+            "name": "Forgiveness (Adept)",
+            "itemHash": "2405619467",
+            "isHolofoil": false,
+            "column1": "Voltshot",
+            "column2": "Desperate Measures, Kill Clip, Surrounded",
+            "originTrait": "Roar of Battle (1673863459)"
+        },
+        {
+            "name": "Gunburn",
+            "itemHash": "3431536253",
+            "isHolofoil": true,
+            "variants": "72775246",
+            "column1": "Bewildering Burst (3914874605), Lead from Light, Pugilist (536173722)",
+            "column2": "Kinetic Tremors (1549370717), Ancillary Ordinance (2138673996), Attrition Orbs (984655331)",
+            "originTrait": "Veist Stinger (3988215619)"
+        },
+        {
+            "name": "The Supremacy",
+            "itemHash": "686951703",
+            "isHolofoil": false,
+            "column1": "Rewind Rounds, Lead from Gold, Discord",
+            "column2": "Kinetic Tremors, Bait and Switch, Fourth Time's the Charm",
+            "originTrait": "Explosive Pact (1489048135)"
+        },
+        {
+            "name": "Zephyr",
+            "itemHash": "4203034886,396910433,1911078836",
+            "isHolofoil": false,
+            "column1": "Relentless Strikes (4085959009), Attrition Orbs (243981275), Rimestealer",
+            "column2": "Surrounded (781192741), Whirlwind Blade (147913470), Cold Steel (405677814)",
+            "originTrait": "Dawning Surprise (4264904777)"
+        }
+    ]
+}

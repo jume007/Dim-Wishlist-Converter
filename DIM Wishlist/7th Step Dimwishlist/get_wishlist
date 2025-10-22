@@ -1,0 +1,37 @@
+import os
+
+def compile_wishlist():
+    # Define relative paths
+    script_dir = os.path.dirname(__file__)
+    input_dir = os.path.join(script_dir, 'Text Files')
+    output_dir = os.path.join(script_dir)
+    output_path = os.path.join(output_dir, 'dimwishlist_final.txt')
+
+    # Get all .txt files in input directory
+    input_files = []
+    for file_name in os.listdir(input_dir):
+        if file_name.endswith('.txt') and os.path.isfile(os.path.join(input_dir, file_name)):
+            input_files.append(file_name)
+
+    # Sort files alphabetically to ensure consistent order
+    input_files.sort()
+
+    # Initialize content for the final wishlist
+    combined_content = []
+
+    for file_name in input_files:
+        input_path = os.path.join(input_dir, file_name)
+        with open(input_path, 'r', encoding='utf-8') as f:
+            content = f.read().strip()
+            if content:
+                combined_content.append(content)
+
+    # Write to dimwishlist_final.txt
+    if combined_content:
+        os.makedirs(output_dir, exist_ok=True)
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write('\n'.join(combined_content))
+            f.write('\n')
+
+if __name__ == "__main__":
+    compile_wishlist()
